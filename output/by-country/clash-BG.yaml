@@ -7,30 +7,13 @@ proxies:
 - name: 🇧🇬 BG 01 - TanXi
   type: vless
   server: 192.145.31.5
-  port: 443
+  port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
+  servername: 192.145.31.5
 - name: 🇧🇬 BG 02 - TanXi
-  type: vless
-  server: 192.145.31.5
-  port: 443
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 192.145.31.5
-- name: 🇧🇬 BG 03 - TanXi
   type: vless
   server: 192.145.31.5
   port: 8443
@@ -39,6 +22,19 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: neth9.lunariai.ru
+- name: 🇧🇬 BG 03 - TanXi
+  type: vless
+  server: 192.145.31.5
+  port: 443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 192.145.31.5
 - name: 🇧🇬 BG 04 - TanXi
   type: vless
   server: 192.145.31.5
@@ -73,16 +69,12 @@ proxies:
 - name: 🇧🇬 BG 07 - TanXi
   type: vless
   server: 192.145.31.5
-  port: 443
+  port: 8443
   uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: neth9.lunariai.ru
+  servername: neth9.lunariai.ru
 - name: 🇧🇬 BG 08 - TanXi
   type: vless
   server: 192.145.31.5
@@ -92,6 +84,15 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 192.145.31.5
+- name: 🇧🇬 BG 09 - TanXi
+  type: vless
+  server: 192.145.31.5
+  port: 8443
+  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: neth9.lunariai.ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -105,6 +106,7 @@ proxy-groups:
   - 🇧🇬 BG 06 - TanXi
   - 🇧🇬 BG 07 - TanXi
   - 🇧🇬 BG 08 - TanXi
+  - 🇧🇬 BG 09 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -118,5 +120,6 @@ proxy-groups:
   - 🇧🇬 BG 06 - TanXi
   - 🇧🇬 BG 07 - TanXi
   - 🇧🇬 BG 08 - TanXi
+  - 🇧🇬 BG 09 - TanXi
 rules:
 - MATCH,PROXIES
