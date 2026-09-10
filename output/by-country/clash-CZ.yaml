@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - TanXi
   type: vless
-  server: 172.67.152.162
+  server: 172.67.203.158
   port: 443
-  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
   network: ws
   ws-opts:
-    path: /cmh
+    path: /vl/YCNmDFbqMu7cgTzgsfEWGtBD8kR
     headers:
-      Host: app-q0zc4t.user-4gfyh5.workers.dev
+      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

@@ -19,32 +19,6 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - TanXi
   type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - TanXi
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - TanXi
-  type: vless
   server: 185.112.249.201
   port: 8443
   uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
@@ -54,50 +28,23 @@ proxies:
   servername: web-socket.tgdaosheng.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=bpb.yousef.isegaro.comfp=chrome
+    path: /proxyip=bpb.yousef.isegaro.com
     headers:
       Host: web-socket.tgdaosheng.ggff.net
-- name: 🇦🇪 阿联酋 (UAE) 05 - TanXi
+- name: 🇦🇪 阿联酋 (UAE) 03 - TanXi
   type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 06 - TanXi
-  type: vless
-  server: 193.29.225.249
-  port: 4443
-  uuid: d0dd16f2-81b4-4892-933e-040856457242
+  server: 185.125.103.62
+  port: 8082
+  uuid: 3dbf58d7-53fc-4fad-8779-1c867e024fd0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  servername: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 07 - TanXi
-  type: vless
-  server: 84.22.150.39
-  port: 7443
-  uuid: 5cc814de-2bbb-4409-ad8c-ee841ca7bad1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+      Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -106,10 +53,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - TanXi
   - 🇦🇪 阿联酋 (UAE) 02 - TanXi
   - 🇦🇪 阿联酋 (UAE) 03 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 04 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 05 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 06 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 07 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -118,9 +61,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - TanXi
   - 🇦🇪 阿联酋 (UAE) 02 - TanXi
   - 🇦🇪 阿联酋 (UAE) 03 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 04 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 05 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 06 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 07 - TanXi
 rules:
 - MATCH,PROXIES

@@ -6,17 +6,17 @@ log-level: info
 proxies:
 - name: 🇲🇾 MY 01 - TanXi
   type: vless
-  server: 38.60.168.98
-  port: 2087
-  uuid: 8a346b7c-5b95-4845-affa-0e5d9929e9ae
+  server: 172.66.214.247
+  port: 8880
+  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /db55c40bbc75
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: 38.60.168.98
+      Host: sweet-sun-c70f.317-ba5.workers.dev
 - name: 🇲🇾 MY 02 - TanXi
   type: vless
   server: 38.60.168.98
@@ -43,6 +43,19 @@ proxies:
     path: /db55c40bbc75
     headers:
       Host: 38.60.168.98
+- name: 🇲🇾 MY 04 - TanXi
+  type: vless
+  server: 38.60.168.98
+  port: 2087
+  uuid: 8a346b7c-5b95-4845-affa-0e5d9929e9ae
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /db55c40bbc75
+    headers:
+      Host: 38.60.168.98
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,6 +64,7 @@ proxy-groups:
   - 🇲🇾 MY 01 - TanXi
   - 🇲🇾 MY 02 - TanXi
   - 🇲🇾 MY 03 - TanXi
+  - 🇲🇾 MY 04 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -59,5 +73,6 @@ proxy-groups:
   - 🇲🇾 MY 01 - TanXi
   - 🇲🇾 MY 02 - TanXi
   - 🇲🇾 MY 03 - TanXi
+  - 🇲🇾 MY 04 - TanXi
 rules:
 - MATCH,PROXIES
