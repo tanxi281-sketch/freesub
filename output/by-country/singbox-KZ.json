@@ -6,20 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe",
-        "🇰🇿 KZ 04 - xiaohe"
+        "🇰🇿 KZ 01 - TanXi",
+        "🇰🇿 KZ 02 - TanXi",
+        "🇰🇿 KZ 03 - TanXi",
+        "🇰🇿 KZ 04 - TanXi",
+        "🇰🇿 KZ 05 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe",
-        "🇰🇿 KZ 04 - xiaohe"
+        "🇰🇿 KZ 01 - TanXi",
+        "🇰🇿 KZ 02 - TanXi",
+        "🇰🇿 KZ 03 - TanXi",
+        "🇰🇿 KZ 04 - TanXi",
+        "🇰🇿 KZ 05 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },

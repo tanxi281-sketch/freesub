@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 RO 01 - xiaohe",
-        "🇷🇴 RO 02 - xiaohe"
+        "🇨🇭 CH 01 - TanXi",
+        "🇨🇭 CH 02 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - xiaohe",
-        "🇷🇴 RO 02 - xiaohe"
+        "🇨🇭 CH 01 - TanXi",
+        "🇨🇭 CH 02 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },

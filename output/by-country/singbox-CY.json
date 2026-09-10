@@ -6,20 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe"
+        "🇨🇾 CY 01 - TanXi",
+        "🇨🇾 CY 02 - TanXi",
+        "🇨🇾 CY 03 - TanXi",
+        "🇨🇾 CY 04 - TanXi",
+        "🇨🇾 CY 05 - TanXi",
+        "🇨🇾 CY 06 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe"
+        "🇨🇾 CY 01 - TanXi",
+        "🇨🇾 CY 02 - TanXi",
+        "🇨🇾 CY 03 - TanXi",
+        "🇨🇾 CY 04 - TanXi",
+        "🇨🇾 CY 05 - TanXi",
+        "🇨🇾 CY 06 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },

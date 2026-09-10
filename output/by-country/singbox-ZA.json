@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - TanXi",
+        "🇿🇦 ZA 02 - TanXi",
+        "🇿🇦 ZA 03 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - TanXi",
+        "🇿🇦 ZA 02 - TanXi",
+        "🇿🇦 ZA 03 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },

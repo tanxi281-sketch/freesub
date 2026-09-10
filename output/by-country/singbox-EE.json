@@ -6,20 +6,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 EE 01 - xiaohe",
-        "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe"
+        "🇪🇪 EE 01 - TanXi",
+        "🇪🇪 EE 02 - TanXi",
+        "🇪🇪 EE 03 - TanXi",
+        "🇪🇪 EE 04 - TanXi",
+        "🇪🇪 EE 05 - TanXi",
+        "🇪🇪 EE 06 - TanXi",
+        "🇪🇪 EE 07 - TanXi",
+        "🇪🇪 EE 08 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE 01 - xiaohe",
-        "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe"
+        "🇪🇪 EE 01 - TanXi",
+        "🇪🇪 EE 02 - TanXi",
+        "🇪🇪 EE 03 - TanXi",
+        "🇪🇪 EE 04 - TanXi",
+        "🇪🇪 EE 05 - TanXi",
+        "🇪🇪 EE 06 - TanXi",
+        "🇪🇪 EE 07 - TanXi",
+        "🇪🇪 EE 08 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
