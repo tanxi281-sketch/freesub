@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - TanXi",
-        "🇫🇮 FI 02 - TanXi",
-        "🇫🇮 FI 03 - TanXi"
+        "🇫🇮 FI 01 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - TanXi",
-        "🇫🇮 FI 02 - TanXi",
-        "🇫🇮 FI 03 - TanXi"
+        "🇫🇮 FI 01 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
