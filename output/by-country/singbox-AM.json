@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇦🇲 AM 01 - TanXi",
+        "🇦🇲 AM 02 - TanXi",
+        "🇦🇲 AM 03 - TanXi",
+        "🇦🇲 AM 04 - TanXi",
+        "🇦🇲 AM 05 - TanXi"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇦🇲 AM 01 - TanXi",
+        "🇦🇲 AM 02 - TanXi",
+        "🇦🇲 AM 03 - TanXi",
+        "🇦🇲 AM 04 - TanXi",
+        "🇦🇲 AM 05 - TanXi"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
