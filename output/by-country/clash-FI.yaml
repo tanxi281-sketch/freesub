@@ -5,19 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - TanXi
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: cc4a473a-2e15-4fc6-ec54-47c3aa5cec09
+  type: ss
+  server: 2.28.225.166
+  port: 33
+  cipher: chacha20-ietf-poly1305
+  password: nmpyTs_5vKsSKeD_AWJpaqyOhtWEP4B5
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
 proxy-groups:
 - name: PROXIES
   type: select
