@@ -6,14 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 UZ 01 - TanXi"
+        "🇺🇿 UZ 01 - TanXi",
+        "🇺🇿 UZ 02 - TanXi",
+        "🇺🇿 UZ 03 - TanXi",
+        "🇺🇿 UZ 04 - TanXi",
+        "🇺🇿 UZ 05 - TanXi",
+        "🇺🇿 UZ 06 - TanXi",
+        "🇺🇿 UZ 07 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - TanXi"
+        "🇺🇿 UZ 01 - TanXi",
+        "🇺🇿 UZ 02 - TanXi",
+        "🇺🇿 UZ 03 - TanXi",
+        "🇺🇿 UZ 04 - TanXi",
+        "🇺🇿 UZ 05 - TanXi",
+        "🇺🇿 UZ 06 - TanXi",
+        "🇺🇿 UZ 07 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
