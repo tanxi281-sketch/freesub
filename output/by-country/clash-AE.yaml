@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - TanXi
   type: vless
-  server: 104.24.31.89
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-- name: 🇦🇪 阿联酋 (UAE) 02 - TanXi
-  type: vless
   server: 89.125.147.199
   port: 443
   uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
@@ -30,59 +16,7 @@ proxies:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
   client-fingerprint: random
-- name: 🇦🇪 阿联酋 (UAE) 03 - TanXi
-  type: vless
-  server: 162.159.153.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-- name: 🇦🇪 阿联酋 (UAE) 04 - TanXi
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - TanXi
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - TanXi
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 07 - TanXi
+- name: 🇦🇪 阿联酋 (UAE) 02 - TanXi
   type: vless
   server: 84.235.244.108
   port: 22573
@@ -95,19 +29,19 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 08 - TanXi
+- name: 🇦🇪 阿联酋 (UAE) 03 - TanXi
   type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: codecanyon.net
+  port: 8880
+  uuid: 2d309706-de61-4c33-a086-3888e595b8eb
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /snob-ws
+    path: /
     headers:
-      Host: cdn.snobvpn.online
+      Host: soft-scene-d370.55-7ff.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -116,11 +50,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - TanXi
   - 🇦🇪 阿联酋 (UAE) 02 - TanXi
   - 🇦🇪 阿联酋 (UAE) 03 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 04 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 05 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 06 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 07 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 08 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -129,10 +58,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - TanXi
   - 🇦🇪 阿联酋 (UAE) 02 - TanXi
   - 🇦🇪 阿联酋 (UAE) 03 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 04 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 05 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 06 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 07 - TanXi
-  - 🇦🇪 阿联酋 (UAE) 08 - TanXi
 rules:
 - MATCH,PROXIES

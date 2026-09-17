@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇿 CZ 01 - TanXi",
+        "🇨🇿 CZ 02 - TanXi",
+        "🇨🇿 CZ 03 - TanXi",
+        "🇨🇿 CZ 04 - TanXi",
+        "🇨🇿 CZ 05 - TanXi",
+        "🇨🇿 CZ 06 - TanXi",
+        "🇨🇿 CZ 07 - TanXi",
+        "🇨🇿 CZ 08 - TanXi",
+        "🇨🇿 CZ 09 - TanXi",
+        "🇨🇿 CZ 10 - TanXi"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇿 CZ 01 - TanXi",
+        "🇨🇿 CZ 02 - TanXi",
+        "🇨🇿 CZ 03 - TanXi",
+        "🇨🇿 CZ 04 - TanXi",
+        "🇨🇿 CZ 05 - TanXi",
+        "🇨🇿 CZ 06 - TanXi",
+        "🇨🇿 CZ 07 - TanXi",
+        "🇨🇿 CZ 08 - TanXi",
+        "🇨🇿 CZ 09 - TanXi",
+        "🇨🇿 CZ 10 - TanXi"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
