@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇪 德国 (Germany) 01 (家宽) - TanXi"
+        "🇪🇸 西班牙 (Spain) 01 - TanXi",
+        "🇪🇸 西班牙 (Spain) 02 - TanXi",
+        "🇪🇸 西班牙 (Spain) 03 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇪 德国 (Germany) 01 (家宽) - TanXi"
+        "🇪🇸 西班牙 (Spain) 01 - TanXi",
+        "🇪🇸 西班牙 (Spain) 02 - TanXi",
+        "🇪🇸 西班牙 (Spain) 03 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
