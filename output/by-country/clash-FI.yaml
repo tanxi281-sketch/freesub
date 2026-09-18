@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - TanXi
   type: vless
-  server: 212.104.128.106
+  server: 212.104.128.152
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -20,33 +20,19 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 02 - TanXi
   type: vless
-  server: 212.104.128.206
+  server: a2.arshia-nova.ir
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: cc3ec459-8d76-4066-ab4b-2614608f1afb
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: c12.com
 - name: 🇫🇮 FI 03 - TanXi
-  type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 04 - TanXi
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -66,7 +52,6 @@ proxy-groups:
   - 🇫🇮 FI 01 - TanXi
   - 🇫🇮 FI 02 - TanXi
   - 🇫🇮 FI 03 - TanXi
-  - 🇫🇮 FI 04 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -75,6 +60,5 @@ proxy-groups:
   - 🇫🇮 FI 01 - TanXi
   - 🇫🇮 FI 02 - TanXi
   - 🇫🇮 FI 03 - TanXi
-  - 🇫🇮 FI 04 - TanXi
 rules:
 - MATCH,PROXIES
