@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇺 LU 01 - TanXi"
+        "🇩🇪 德国 (Germany) 01 (家宽) - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇺 LU 01 - TanXi"
+        "🇩🇪 德国 (Germany) 01 (家宽) - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
