@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - TanXi",
-        "🇳🇴 NO 02 - TanXi",
-        "🇳🇴 NO 03 - TanXi",
-        "🇳🇴 NO 04 - TanXi"
+        "🇱🇺 LU 01 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - TanXi",
-        "🇳🇴 NO 02 - TanXi",
-        "🇳🇴 NO 03 - TanXi",
-        "🇳🇴 NO 04 - TanXi"
+        "🇱🇺 LU 01 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
