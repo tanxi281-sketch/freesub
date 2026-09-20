@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - TanXi
   type: vless
-  server: 212.104.128.45
+  server: k2.cloud--vpn.site
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: c12.com
 - name: 🇫🇮 FI 02 - TanXi
   type: vless
-  server: 212.104.128.106
+  server: 212.104.128.152
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 04 - TanXi
   type: vless
-  server: 212.104.128.27
+  server: 212.104.128.139
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -62,21 +62,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 05 - TanXi
   type: vless
-  server: 212.104.128.27
+  server: 151.101.56.6
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM-TOOTFFARANGI
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: c12.com
 - name: 🇫🇮 FI 06 - TanXi
   type: vless
-  server: 212.104.128.0
+  server: 212.104.128.152
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -90,21 +90,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 07 - TanXi
   type: vless
-  server: 172.64.52.230
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 212.104.128.45
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 08 - TanXi
   type: vless
-  server: 212.104.128.139
+  server: 212.104.128.0
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -118,21 +118,20 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 09 - TanXi
   type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: 146.75.119.82
+  port: 80
+  uuid: 47dee644-2f74-466e-b35a-195f5faa7c31
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: rb24.ir
 - name: 🇫🇮 FI 10 - TanXi
   type: vless
-  server: 212.104.128.45
+  server: 212.104.128.27
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -146,21 +145,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 11 - TanXi
   type: vless
-  server: a2.arshia-nova.ir
+  server: 212.104.128.217
   port: 443
-  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ssl.fastly.com
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: c12.com
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 12 - TanXi
   type: vless
-  server: 212.104.128.217
+  server: 212.104.128.45
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -174,47 +173,19 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 13 - TanXi
   type: vless
-  server: 212.104.128.206
+  server: 151.101.56.6
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM-TOOTFFARANGI
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: c12.com
 - name: 🇫🇮 FI 14 - TanXi
-  type: vless
-  server: 212.104.128.244
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 15 - TanXi
-  type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 16 - TanXi
   type: vless
   server: 212.104.128.68
   port: 443
@@ -228,6 +199,69 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 15 - TanXi
+  type: vless
+  server: 212.104.128.206
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 16 - TanXi
+  type: vless
+  server: 212.104.128.106
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 17 - TanXi
+  type: vless
+  server: 212.104.128.244
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 18 - TanXi
+  type: vless
+  server: 212.104.128.27
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 19 - TanXi
+  type: ss
+  server: 87.58.148.70
+  port: 443
+  cipher: aes-256-gcm
+  password: rg0g3xp9rk9nk9o0
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -249,6 +283,9 @@ proxy-groups:
   - 🇫🇮 FI 14 - TanXi
   - 🇫🇮 FI 15 - TanXi
   - 🇫🇮 FI 16 - TanXi
+  - 🇫🇮 FI 17 - TanXi
+  - 🇫🇮 FI 18 - TanXi
+  - 🇫🇮 FI 19 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -270,5 +307,8 @@ proxy-groups:
   - 🇫🇮 FI 14 - TanXi
   - 🇫🇮 FI 15 - TanXi
   - 🇫🇮 FI 16 - TanXi
+  - 🇫🇮 FI 17 - TanXi
+  - 🇫🇮 FI 18 - TanXi
+  - 🇫🇮 FI 19 - TanXi
 rules:
 - MATCH,PROXIES
