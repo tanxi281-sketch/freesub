@@ -6,21 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - TanXi
   type: vless
-  server: 195.85.23.45
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 02 - TanXi
-  type: vless
-  server: cz1.zuoai.cf
+  server: 195.85.23.88
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -32,21 +18,7 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 03 - TanXi
-  type: vless
-  server: 104.21.79.199
-  port: 443
-  uuid: 38d6b629-64c2-4c31-a10d-26eb3a2a053d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lHNs3ww2-CXQ-Gj1vvOBkEPIg4noPkc.hqu4v38Hi9iFtcp6mZfMX-3bmx.WoRKeRS.dEV
-  network: ws
-  ws-opts:
-    path: /vl/cxl8Wn1ylnsk63nJ0
-    headers:
-      Host: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-- name: 🇨🇿 CZ 04 - TanXi
+- name: 🇨🇿 CZ 02 - TanXi
   type: vless
   server: 195.85.23.29
   port: 443
@@ -60,23 +32,37 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 05 - TanXi
+- name: 🇨🇿 CZ 03 - TanXi
   type: vless
-  server: 104.21.96.1
+  server: 195.85.23.47
   port: 443
-  uuid: 0836463b-214f-4af6-aa85-85a56a62388e
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev
+  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    path: /
     headers:
-      Host: d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev
-- name: 🇨🇿 CZ 06 - TanXi
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 04 - TanXi
   type: vless
-  server: 195.85.23.217
+  server: 195.85.23.248
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 05 - TanXi
+  type: vless
+  server: 195.85.23.219
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -88,9 +74,23 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 06 - TanXi
+  type: vless
+  server: 195.85.23.111
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 07 - TanXi
   type: vless
-  server: 195.85.23.88
+  server: 195.85.23.219
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -118,7 +118,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 09 - TanXi
   type: vless
-  server: 195.85.23.217
+  server: 195.85.23.45
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -127,12 +127,12 @@ proxies:
   servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 10 - TanXi
   type: vless
-  server: 195.85.23.252
+  server: cz1.zuoai.cf
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -146,7 +146,7 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 11 - TanXi
   type: vless
-  server: 195.85.23.219
+  server: 195.85.23.217
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -160,18 +160,74 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 12 - TanXi
   type: vless
-  server: 104.21.12.63
-  port: 8443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  server: 195.85.23.88
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 13 - TanXi
+  type: vless
+  server: 195.85.23.75
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: index.arcane509.workers.dev
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 14 - TanXi
+  type: vless
+  server: 195.85.23.45
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 15 - TanXi
+  type: vless
+  server: 195.85.23.217
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 16 - TanXi
+  type: vless
+  server: 195.85.23.252
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -189,6 +245,10 @@ proxy-groups:
   - 🇨🇿 CZ 10 - TanXi
   - 🇨🇿 CZ 11 - TanXi
   - 🇨🇿 CZ 12 - TanXi
+  - 🇨🇿 CZ 13 - TanXi
+  - 🇨🇿 CZ 14 - TanXi
+  - 🇨🇿 CZ 15 - TanXi
+  - 🇨🇿 CZ 16 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -206,5 +266,9 @@ proxy-groups:
   - 🇨🇿 CZ 10 - TanXi
   - 🇨🇿 CZ 11 - TanXi
   - 🇨🇿 CZ 12 - TanXi
+  - 🇨🇿 CZ 13 - TanXi
+  - 🇨🇿 CZ 14 - TanXi
+  - 🇨🇿 CZ 15 - TanXi
+  - 🇨🇿 CZ 16 - TanXi
 rules:
 - MATCH,PROXIES
