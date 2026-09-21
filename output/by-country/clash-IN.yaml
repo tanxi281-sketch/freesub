@@ -31,6 +31,47 @@ proxies:
     headers:
       Host: shuma.ccwu.cc
 - name: 🇮🇳 印度 (India) 03 - TanXi
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 04 - TanXi
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇮🇳 印度 (India) 05 - TanXi
+  type: vless
+  server: 152.70.76.104
+  port: 46000
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇮🇳 印度 (India) 06 - TanXi
   type: vless
   server: 34.93.188.70
   port: 443
@@ -42,7 +83,7 @@ proxies:
     public-key: 97C6O3repofpoaJzvu1d4o7amhJGA8hF_yJls7SNIgU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 04 - TanXi
+- name: 🇮🇳 印度 (India) 07 - TanXi
   type: vless
   server: 13.200.106.232
   port: 443
@@ -65,6 +106,9 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - TanXi
   - 🇮🇳 印度 (India) 03 - TanXi
   - 🇮🇳 印度 (India) 04 - TanXi
+  - 🇮🇳 印度 (India) 05 - TanXi
+  - 🇮🇳 印度 (India) 06 - TanXi
+  - 🇮🇳 印度 (India) 07 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -74,5 +118,8 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - TanXi
   - 🇮🇳 印度 (India) 03 - TanXi
   - 🇮🇳 印度 (India) 04 - TanXi
+  - 🇮🇳 印度 (India) 05 - TanXi
+  - 🇮🇳 印度 (India) 06 - TanXi
+  - 🇮🇳 印度 (India) 07 - TanXi
 rules:
 - MATCH,PROXIES
