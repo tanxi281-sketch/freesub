@@ -6,18 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - TanXi",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - TanXi",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - TanXi"
+        "🇮🇪 IE 01 - TanXi",
+        "🇮🇪 IE 02 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - TanXi",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - TanXi",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - TanXi"
+        "🇮🇪 IE 01 - TanXi",
+        "🇮🇪 IE 02 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
