@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇰 SK 01 - TanXi",
-        "🇸🇰 SK 02 - TanXi"
+        "🇸🇰 SK 01 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇰 SK 01 - TanXi",
-        "🇸🇰 SK 02 - TanXi"
+        "🇸🇰 SK 01 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
