@@ -4,9 +4,23 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇲 AM 01 - TanXi
+- name: 🇧🇬 BG 01 - TanXi
   type: vless
   server: 2.56.204.183
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇬 BG 02 - TanXi
+  type: vless
+  server: 2.56.207.67
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -23,12 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇲 AM 01 - TanXi
+  - 🇧🇬 BG 01 - TanXi
+  - 🇧🇬 BG 02 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇲 AM 01 - TanXi
+  - 🇧🇬 BG 01 - TanXi
+  - 🇧🇬 BG 02 - TanXi
 rules:
 - MATCH,PROXIES
