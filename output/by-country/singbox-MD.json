@@ -7,9 +7,7 @@
       "outbounds": [
         "auto",
         "🇲🇩 MD 01 - TanXi",
-        "🇲🇩 MD 02 - TanXi",
-        "🇲🇩 MD 03 - TanXi",
-        "🇲🇩 MD 04 - TanXi"
+        "🇲🇩 MD 02 - TanXi"
       ]
     },
     {
@@ -17,9 +15,7 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇩 MD 01 - TanXi",
-        "🇲🇩 MD 02 - TanXi",
-        "🇲🇩 MD 03 - TanXi",
-        "🇲🇩 MD 04 - TanXi"
+        "🇲🇩 MD 02 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },

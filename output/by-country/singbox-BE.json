@@ -7,7 +7,8 @@
       "outbounds": [
         "auto",
         "🇧🇪 BE 01 - TanXi",
-        "🇧🇪 BE 02 - TanXi"
+        "🇧🇪 BE 02 - TanXi",
+        "🇧🇪 BE 03 - TanXi"
       ]
     },
     {
@@ -15,7 +16,8 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇪 BE 01 - TanXi",
-        "🇧🇪 BE 02 - TanXi"
+        "🇧🇪 BE 02 - TanXi",
+        "🇧🇪 BE 03 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
