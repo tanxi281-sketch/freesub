@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - TanXi",
-        "🇮🇪 IE 02 - TanXi",
-        "🇮🇪 IE 03 - TanXi"
+        "🇵🇱 PL 01 - TanXi",
+        "🇵🇱 PL 02 - TanXi",
+        "🇵🇱 PL 03 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - TanXi",
-        "🇮🇪 IE 02 - TanXi",
-        "🇮🇪 IE 03 - TanXi"
+        "🇵🇱 PL 01 - TanXi",
+        "🇵🇱 PL 02 - TanXi",
+        "🇵🇱 PL 03 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
