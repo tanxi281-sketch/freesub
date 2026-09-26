@@ -6,38 +6,63 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - TanXi
   type: vless
-  server: 172.67.215.39
-  port: 443
-  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+  server: 104.18.46.234
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: muddy-math-c1fc.tmpnriqueau89.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
-      Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - TanXi
   type: vless
-  server: 46.8.200.91
+  server: 162.159.0.53
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 03 - TanXi
+  type: vless
+  server: 104.18.47.113
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 04 - TanXi
+  type: vless
+  server: 217.19.122.65
   port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
+  servername: fbsv6.guardora.pro
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /ws
     headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 03 - TanXi
+      Host: fbsv6.guardora.pro
+- name: 🇷🇺 俄罗斯 (Russia) 05 - TanXi
   type: ss
-  server: 195.133.23.200
-  port: 30210
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
+  server: 188.225.78.31
+  port: 2053
+  cipher: 2022-blake3-aes-256-gcm
+  password: g4h/AcJh1+jg9+yonlMK4Wq7fhbFY3NkcOzUVlZ9GjU=
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -47,6 +72,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 02 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 03 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 04 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 05 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,5 +82,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 02 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 03 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 04 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 05 - TanXi
 rules:
 - MATCH,PROXIES
