@@ -17,38 +17,28 @@ proxies:
   servername: www.apple.com
   client-fingerprint: firefox
 - name: 🇪🇸 西班牙 (Spain) 02 - TanXi
+  type: vmess
+  server: 66.163.118.73
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇪🇸 西班牙 (Spain) 03 - TanXi
+  type: ss
+  server: 140.174.184.5
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 04 - TanXi
   type: ss
   server: 108.181.121.226
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 03 - TanXi
-  type: vless
-  server: 104.18.34.14
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇪🇸 西班牙 (Spain) 04 - TanXi
-  type: ss
-  server: 140.174.184.5
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 05 - TanXi
-  type: ss
-  server: 140.174.184.5
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -59,7 +49,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - TanXi
   - 🇪🇸 西班牙 (Spain) 03 - TanXi
   - 🇪🇸 西班牙 (Spain) 04 - TanXi
-  - 🇪🇸 西班牙 (Spain) 05 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,6 +58,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - TanXi
   - 🇪🇸 西班牙 (Spain) 03 - TanXi
   - 🇪🇸 西班牙 (Spain) 04 - TanXi
-  - 🇪🇸 西班牙 (Spain) 05 - TanXi
 rules:
 - MATCH,PROXIES

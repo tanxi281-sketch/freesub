@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇪 IE 01 - TanXi",
+        "🇮🇪 IE 02 - TanXi",
+        "🇮🇪 IE 03 - TanXi",
+        "🇮🇪 IE 04 - TanXi"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇪 IE 01 - TanXi",
+        "🇮🇪 IE 02 - TanXi",
+        "🇮🇪 IE 03 - TanXi",
+        "🇮🇪 IE 04 - TanXi"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
