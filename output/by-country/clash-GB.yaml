@@ -5,21 +5,55 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - TanXi
-  type: vless
-  server: 18.171.3.214
-  port: 22223
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 02 - TanXi
   type: ss
   server: 141.98.101.181
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
+- name: 🇬🇧 英国 (United Kingdom) 02 - TanXi
+  type: ss
+  server: 149.102.132.184
+  port: 80
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+  udp: true
 - name: 🇬🇧 英国 (United Kingdom) 03 - TanXi
+  type: ss
+  server: 149.102.149.207
+  port: 443
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 04 - TanXi
+  type: ss
+  server: 144.24.227.214
+  port: 61312
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ngEu2MRJXDGlSxpTvPyLdOG64A9jtECl4AR1uHXP2So=
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 05 - TanXi
+  type: ss
+  server: 149.102.149.207
+  port: 80
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 06 - TanXi
+  type: ss
+  server: 82.38.31.11
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 07 - TanXi
+  type: ss
+  server: 143.110.161.156
+  port: 17000
+  cipher: aes-256-gcm
+  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 08 - TanXi
   type: vless
   server: 46.250.250.149
   port: 2053
@@ -30,15 +64,8 @@ proxies:
   reality-opts:
     public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 04 - TanXi
-  type: ss
-  server: 82.38.31.46
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 05 - TanXi
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 09 - TanXi
   type: vless
   server: 129.121.95.159
   port: 443
@@ -52,84 +79,23 @@ proxies:
     path: /connect
     headers:
       Host: 129.121.95.159
-- name: 🇬🇧 英国 (United Kingdom) 06 - TanXi
-  type: ss
-  server: 149.102.132.184
-  port: 443
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 07 - TanXi
-  type: ss
-  server: 82.38.31.82
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 08 - TanXi
-  type: ss
-  server: 149.102.132.184
-  port: 443
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 09 - TanXi
-  type: ss
-  server: 51.77.225.200
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: zRZNBszYyWo5
-  udp: true
 - name: 🇬🇧 英国 (United Kingdom) 10 - TanXi
-  type: ss
-  server: 149.102.149.207
+  type: vmess
+  server: 186.190.211.67
   port: 443
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pahobac.org
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: pahobac.org
 - name: 🇬🇧 英国 (United Kingdom) 11 - TanXi
-  type: ss
-  server: 149.102.149.207
-  port: 80
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 12 - TanXi
-  type: ss
-  server: 141.98.101.181
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 13 - TanXi
-  type: ss
-  server: 82.38.31.13
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 14 - TanXi
-  type: ss
-  server: 144.24.227.214
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ngEu2MRJXDGlSxpTvPyLdOG64A9jtECl4AR1uHXP2So=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 15 - TanXi
-  type: ss
-  server: 149.102.132.184
-  port: 80
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 16 - TanXi
-  type: ss
-  server: 82.38.31.11
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 17 - TanXi
   type: vmess
   server: 66.163.117.58
   port: 443
@@ -145,43 +111,14 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇬🇧 英国 (United Kingdom) 18 - TanXi
-  type: vless
-  server: 18.171.3.214
-  port: 22224
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 19 - TanXi
+- name: 🇬🇧 英国 (United Kingdom) 12 - TanXi
   type: ss
-  server: 149.102.149.207
-  port: 443
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 20 - TanXi
-  type: ss
-  server: 82.38.31.215
-  port: 8080
+  server: 158.173.221.214
+  port: 11001
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: c58d16e593d44f42
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 21 - TanXi
-  type: ss
-  server: 144.24.224.133
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: /Y28XsDfiP+fi4Refwdekr6F67d7EgGeA7F2lP+T31o=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 22 - TanXi
-  type: ss
-  server: 149.102.132.184
-  port: 80
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 23 - TanXi
+- name: 🇬🇧 英国 (United Kingdom) 13 - TanXi
   type: vless
   server: 46.250.250.149
   port: 2053
@@ -192,7 +129,7 @@ proxies:
   reality-opts:
     public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -211,16 +148,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 11 - TanXi
   - 🇬🇧 英国 (United Kingdom) 12 - TanXi
   - 🇬🇧 英国 (United Kingdom) 13 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 14 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 15 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 16 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 17 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 18 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 19 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 20 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 21 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 22 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 23 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -239,15 +166,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 11 - TanXi
   - 🇬🇧 英国 (United Kingdom) 12 - TanXi
   - 🇬🇧 英国 (United Kingdom) 13 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 14 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 15 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 16 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 17 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 18 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 19 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 20 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 21 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 22 - TanXi
-  - 🇬🇧 英国 (United Kingdom) 23 - TanXi
 rules:
 - MATCH,PROXIES
