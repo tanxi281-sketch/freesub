@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇵🇱 PL 01 - TanXi",
+        "🇵🇱 PL 02 - TanXi",
+        "🇵🇱 PL 03 - TanXi",
+        "🇵🇱 PL 04 - TanXi",
+        "🇵🇱 PL 05 - TanXi",
+        "🇵🇱 PL 06 - TanXi",
+        "🇵🇱 PL 07 - TanXi"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇵🇱 PL 01 - TanXi",
+        "🇵🇱 PL 02 - TanXi",
+        "🇵🇱 PL 03 - TanXi",
+        "🇵🇱 PL 04 - TanXi",
+        "🇵🇱 PL 05 - TanXi",
+        "🇵🇱 PL 06 - TanXi",
+        "🇵🇱 PL 07 - TanXi"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
