@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 AT 01 - TanXi",
-        "🇦🇹 AT 02 - TanXi"
+        "🇺🇿 UZ 01 - TanXi",
+        "🇺🇿 UZ 02 - TanXi",
+        "🇺🇿 UZ 03 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - TanXi",
-        "🇦🇹 AT 02 - TanXi"
+        "🇺🇿 UZ 01 - TanXi",
+        "🇺🇿 UZ 02 - TanXi",
+        "🇺🇿 UZ 03 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
