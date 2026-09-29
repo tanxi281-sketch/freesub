@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 IE 01 - TanXi
+- name: 🇱🇻 LV 01 - TanXi
   type: vless
-  server: 45.141.234.138
+  server: latvia-3.kochvpn.pw
   port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  uuid: 8de0e6f4-d365-fa64-d5ba-eed9ea513e06
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
+  servername: latvia-3.kochvpn.pw
   network: ws
   ws-opts:
-    path: /
+    path: /stream/ws
     headers:
-      Host: edgetunnel-4uw.pages.dev
+      Host: latvia-3.kochvpn.pw
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 IE 01 - TanXi
+  - 🇱🇻 LV 01 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 IE 01 - TanXi
+  - 🇱🇻 LV 01 - TanXi
 rules:
 - MATCH,PROXIES
