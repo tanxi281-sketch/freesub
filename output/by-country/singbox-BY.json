@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇾 BY 01 - TanXi",
+        "🇧🇾 BY 02 - TanXi",
+        "🇧🇾 BY 03 - TanXi",
+        "🇧🇾 BY 04 - TanXi",
+        "🇧🇾 BY 05 - TanXi",
+        "🇧🇾 BY 06 - TanXi"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇾 BY 01 - TanXi",
+        "🇧🇾 BY 02 - TanXi",
+        "🇧🇾 BY 03 - TanXi",
+        "🇧🇾 BY 04 - TanXi",
+        "🇧🇾 BY 05 - TanXi",
+        "🇧🇾 BY 06 - TanXi"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
