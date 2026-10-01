@@ -8,7 +8,10 @@
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - TanXi",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - TanXi",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - TanXi"
+        "🇨🇦 加拿大 (Canada) 03 (家宽) - TanXi",
+        "🇨🇦 加拿大 (Canada) 04 (家宽) - TanXi",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - TanXi",
+        "🇺🇸 美国 (United States) 06 (家宽) - TanXi"
       ]
     },
     {
@@ -17,7 +20,10 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - TanXi",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - TanXi",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - TanXi"
+        "🇨🇦 加拿大 (Canada) 03 (家宽) - TanXi",
+        "🇨🇦 加拿大 (Canada) 04 (家宽) - TanXi",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - TanXi",
+        "🇺🇸 美国 (United States) 06 (家宽) - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
