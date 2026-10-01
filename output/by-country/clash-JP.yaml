@@ -5,23 +5,32 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - TanXi
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 02 - TanXi
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 03 - TanXi
   type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: none
-- name: 🇯🇵 日本 (Japan) 02 - TanXi
+- name: 🇯🇵 日本 (Japan) 04 - TanXi
   type: vless
-  server: 104.16.111.202
+  server: 104.17.50.53
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -33,29 +42,6 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 03 - TanXi
-  type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: 168.138.43.75
-- name: 🇯🇵 日本 (Japan) 04 - TanXi
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 05 - TanXi
   type: vless
   server: 137.220.221.179
@@ -65,20 +51,13 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 06 - TanXi
-  type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: none
 - name: 🇯🇵 日本 (Japan) 07 - TanXi
   type: vmess
   server: 45.32.57.118
@@ -91,24 +70,33 @@ proxies:
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 08 - TanXi
   type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: jp01.a0a.xyz
 - name: 🇯🇵 日本 (Japan) 09 - TanXi
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 104.16.10.72
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 10 - TanXi
   type: vmess
   server: 45.32.57.118
@@ -127,20 +115,29 @@ proxies:
   password: 3eOFeNssde7PYYMv
   udp: true
 - name: 🇯🇵 日本 (Japan) 12 - TanXi
-  type: vless
-  server: 104.17.50.53
+  type: ss
+  server: 149.22.87.241
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 13 - TanXi
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 14 - TanXi
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 15 - TanXi
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -154,24 +151,7 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: jp01.a0a.xyz
-- name: 🇯🇵 日本 (Japan) 14 - TanXi
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 15 - TanXi
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
+      Host: ''
 - name: 🇯🇵 日本 (Japan) 16 - TanXi
   type: vmess
   server: 168.138.43.75
@@ -188,64 +168,6 @@ proxies:
     headers:
       Host: ''
 - name: 🇯🇵 日本 (Japan) 17 - TanXi
-  type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 18 - TanXi
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 19 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: bb1be788-6b00-47c8-a96e-c828f3a33de4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: d3b866e4.69lover.site
-  network: ws
-  ws-opts:
-    path: /api/v2/671d8a5bccaf636f/stream
-    headers:
-      Host: d3b866e4.69lover.site
-- name: 🇯🇵 日本 (Japan) 20 - TanXi
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 21 - TanXi
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 22 - TanXi
-  type: vless
-  server: 104.16.10.9
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 23 - TanXi
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -259,8 +181,16 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: jp01.a0a.xyz
-- name: 🇯🇵 日本 (Japan) 24 - TanXi
+      Host: 168.138.43.75
+- name: 🇯🇵 日本 (Japan) 18 - TanXi
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 19 - TanXi
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -275,14 +205,30 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: ''
-- name: 🇯🇵 日本 (Japan) 25 - TanXi
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+- name: 🇯🇵 日本 (Japan) 20 - TanXi
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇯🇵 日本 (Japan) 26 - TanXi
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: none
+- name: 🇯🇵 日本 (Japan) 21 - TanXi
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 22 - TanXi
   type: vmess
   server: 45.32.57.118
   port: 4433
@@ -292,15 +238,32 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 27 - TanXi
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+- name: 🇯🇵 日本 (Japan) 23 - TanXi
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 28 - TanXi
+- name: 🇯🇵 日本 (Japan) 24 - TanXi
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: jp01.a0a.xyz
+- name: 🇯🇵 日本 (Japan) 25 - TanXi
   type: vmess
   server: 140.238.55.84
   port: 2083
@@ -316,19 +279,9 @@ proxies:
     path: /or3
     headers:
       Host: 140.238.55.84
-- name: 🇯🇵 日本 (Japan) 29 - TanXi
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 30 - TanXi
+- name: 🇯🇵 日本 (Japan) 26 - TanXi
   type: vless
-  server: 172.67.217.240
+  server: 162.159.254.3
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -340,7 +293,63 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 27 - TanXi
+  type: vless
+  server: 104.17.50.53
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 28 - TanXi
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 29 - TanXi
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 30 - TanXi
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 31 - TanXi
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: none
+- name: 🇯🇵 日本 (Japan) 32 - TanXi
   type: vmess
   server: 45.32.57.118
   port: 4433
@@ -386,6 +395,7 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 29 - TanXi
   - 🇯🇵 日本 (Japan) 30 - TanXi
   - 🇯🇵 日本 (Japan) 31 - TanXi
+  - 🇯🇵 日本 (Japan) 32 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -422,5 +432,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 29 - TanXi
   - 🇯🇵 日本 (Japan) 30 - TanXi
   - 🇯🇵 日本 (Japan) 31 - TanXi
+  - 🇯🇵 日本 (Japan) 32 - TanXi
 rules:
 - MATCH,PROXIES

@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - TanXi
+- name: 🇹🇭 TH 01 - TanXi
   type: vless
-  server: www.asamping.ir
-  port: 2052
-  uuid: 5f424b45-29e5-4cbe-b752-88ac535c11b7
+  server: 103.86.49.57
+  port: 80
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /ws
     headers:
-      Host: www.asamping.ir
+      Host: aIs.SpEeDtEsT.nEt
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - TanXi
+  - 🇹🇭 TH 01 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - TanXi
+  - 🇹🇭 TH 01 - TanXi
 rules:
 - MATCH,PROXIES

@@ -5,29 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - TanXi
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-  udp: true
-- name: 🇩🇪 德国 (Germany) 02 - TanXi
-  type: vmess
-  server: 193.108.117.54
+  type: vless
+  server: rubifen.adaspoloandco.com
   port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aidrivercat.org
+  servername: rubifen.adaspoloandco.com
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /GOrbEh
     headers:
-      Host: aidrivercat.org
-- name: 🇩🇪 德国 (Germany) 03 - TanXi
+      Host: rubifen.adaspoloandco.com
+- name: 🇩🇪 德国 (Germany) 02 - TanXi
   type: vless
   server: 94.228.171.219
   port: 8444
@@ -41,11 +32,20 @@ proxies:
     path: /c7f5317cd04691bc
     headers:
       Host: germany.tofreedom.ru
+- name: 🇩🇪 德国 (Germany) 03 - TanXi
+  type: ss
+  server: 130.61.42.148
+  port: 59924
+  cipher: 2022-blake3-chacha20-poly1305
+  password: tGXsbUDisR28c/KS0RDOlgQS1gVT7UJ5Sf0/5QvMwR4=
+  udp: true
 - name: 🇩🇪 德国 (Germany) 04 - TanXi
-  type: vless
-  server: 188.245.25.223
-  port: 1085
-  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
+  type: vmess
+  server: 31.77.8.97
+  port: 110
+  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
@@ -60,16 +60,8 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 06 - TanXi
-  type: vless
-  server: 31.76.11.83
-  port: 26070
-  uuid: e676c6c8-44a8-4a1d-82cc-821a1f70f0c0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 07 - TanXi
   type: vmess
-  server: 185.177.229.129
+  server: 216.106.187.60
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
@@ -77,20 +69,27 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 08 - TanXi
+- name: 🇩🇪 德国 (Germany) 07 - TanXi
   type: vless
-  server: rubifen.adaspoloandco.com
-  port: 443
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: rubifen.adaspoloandco.com
   network: ws
   ws-opts:
-    path: /GOrbEh
+    path: /vless/
     headers:
-      Host: rubifen.adaspoloandco.com
+      Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 08 - TanXi
+  type: vless
+  server: 195.26.26.68
+  port: 25288
+  uuid: 26c88828-53a0-40b9-84fc-e9a50fde5e7d
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 09 - TanXi
   type: vless
   server: rubifen.adaspoloandco.com
@@ -107,15 +106,61 @@ proxies:
       Host: rubifen.adaspoloandco.com
 - name: 🇩🇪 德国 (Germany) 10 - TanXi
   type: vmess
-  server: 31.76.11.83
-  port: 23326
-  uuid: 3dff544a-379e-41f9-95d9-4b95a8e4026e
+  server: 31.77.8.97
+  port: 110
+  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 11 - TanXi
+  type: vless
+  server: 195.26.26.68
+  port: 25288
+  uuid: 26c88828-53a0-40b9-84fc-e9a50fde5e7d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 12 - TanXi
+  type: ss
+  server: 213.202.208.199
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇩🇪 德国 (Germany) 13 - TanXi
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 14 - TanXi
+  type: ss
+  server: 8.209.74.72
+  port: 20001
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+  udp: true
+- name: 🇩🇪 德国 (Germany) 15 - TanXi
+  type: ss
+  server: 51.195.126.38
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 2YdE4lFOid5a
+  udp: true
+- name: 🇩🇪 德国 (Germany) 16 - TanXi
+  type: vmess
+  server: 31.77.8.97
+  port: 110
+  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 17 - TanXi
   type: vmess
   server: 31.76.11.83
   port: 23326
@@ -125,71 +170,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 12 - TanXi
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 13 - TanXi
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 14 - TanXi
-  type: vless
-  server: 195.26.26.68
-  port: 25288
-  uuid: 26c88828-53a0-40b9-84fc-e9a50fde5e7d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 15 - TanXi
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 16 - TanXi
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 17 - TanXi
-  type: vless
-  server: 195.26.26.68
-  port: 25288
-  uuid: 26c88828-53a0-40b9-84fc-e9a50fde5e7d
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 18 - TanXi
-  type: ss
-  server: 130.61.148.38
-  port: 59924
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 0clp459flSB1OXx30XiuPR6wV1765Sn8Wwl9pBdEz/M=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 19 - TanXi
   type: vless
   server: site.check-looks.space
   port: 2083
@@ -203,14 +184,14 @@ proxies:
     path: /
     headers:
       Host: site.check-looks.space
-- name: 🇩🇪 德国 (Germany) 20 - TanXi
+- name: 🇩🇪 德国 (Germany) 19 - TanXi
   type: ss
-  server: 51.195.126.38
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 2YdE4lFOid5a
+  server: 2.58.81.221
+  port: 80
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
   udp: true
-- name: 🇩🇪 德国 (Germany) 21 - TanXi
+- name: 🇩🇪 德国 (Germany) 20 - TanXi
   type: vless
   server: 81.95.4.189
   port: 443
@@ -224,7 +205,22 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
+- name: 🇩🇪 德国 (Germany) 21 - TanXi
+  type: vless
+  server: 188.245.25.223
+  port: 1085
+  uuid: 0c1b7949-fe09-43d9-863f-2c031f66bfc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 22 - TanXi
+  type: ss
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+  udp: true
+- name: 🇩🇪 德国 (Germany) 23 - TanXi
   type: vless
   server: 31.76.11.83
   port: 26070
@@ -259,6 +255,7 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 20 - TanXi
   - 🇩🇪 德国 (Germany) 21 - TanXi
   - 🇩🇪 德国 (Germany) 22 - TanXi
+  - 🇩🇪 德国 (Germany) 23 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -286,5 +283,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 20 - TanXi
   - 🇩🇪 德国 (Germany) 21 - TanXi
   - 🇩🇪 德国 (Germany) 22 - TanXi
+  - 🇩🇪 德国 (Germany) 23 - TanXi
 rules:
 - MATCH,PROXIES
