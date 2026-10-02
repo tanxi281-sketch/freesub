@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - TanXi
   type: vless
-  server: 172.64.53.55
+  server: 172.64.154.8
   port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
