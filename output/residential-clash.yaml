@@ -20,7 +20,7 @@ proxies:
       Host: argo6.5671234.xyz
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - TanXi
   type: vless
-  server: 59.125.69.24
+  server: 60.248.219.54
   port: 443
   uuid: 06e177f7-240d-4687-bd85-235505801a5e
   udp: true
@@ -31,7 +31,7 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: 59.125.69.24
+      Host: 60.248.219.54
 - name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - TanXi
   type: vless
   server: 103.180.20.108
@@ -46,6 +46,19 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.180.20.108
+- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - TanXi
+  type: vless
+  server: 172.66.140.62
+  port: 8880
+  uuid: 2efeba50-78fe-4729-9821-1fb9819ed9e8
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: dark-dew-c3ed.48-97c.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,6 +67,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - TanXi
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - TanXi
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - TanXi
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +76,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - TanXi
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - TanXi
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - TanXi
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - TanXi
 rules:
 - MATCH,PROXIES
