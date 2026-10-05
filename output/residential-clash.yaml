@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - TanXi
   type: vless
-  server: 104.20.36.205
+  server: argo6.5671234.xyz
   port: 443
   uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: argo6.5671234.xyz
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - TanXi
   type: vless
-  server: 60.248.219.54
+  server: 59.125.69.24
   port: 443
   uuid: 06e177f7-240d-4687-bd85-235505801a5e
   udp: true
@@ -31,8 +31,34 @@ proxies:
   ws-opts:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: 60.248.219.54
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - TanXi
+      Host: 59.125.69.24
+- name: 🇺🇸 美国 (United States) 03 (家宽) - TanXi
+  type: vless
+  server: 104.18.46.234
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls+
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇺🇸 美国 (United States) 04 (家宽) - TanXi
+  type: vless
+  server: 172.64.32.103
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - TanXi
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -46,19 +72,6 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.180.20.108
-- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - TanXi
-  type: vless
-  server: 172.66.140.62
-  port: 8880
-  uuid: 2efeba50-78fe-4729-9821-1fb9819ed9e8
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: dark-dew-c3ed.48-97c.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,8 +79,9 @@ proxy-groups:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - TanXi
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - TanXi
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - TanXi
+  - 🇺🇸 美国 (United States) 03 (家宽) - TanXi
+  - 🇺🇸 美国 (United States) 04 (家宽) - TanXi
+  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -75,7 +89,8 @@ proxy-groups:
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - TanXi
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - TanXi
-  - 🇰🇷 韩国 (South Korea) 04 (家宽) - TanXi
+  - 🇺🇸 美国 (United States) 03 (家宽) - TanXi
+  - 🇺🇸 美国 (United States) 04 (家宽) - TanXi
+  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - TanXi
 rules:
 - MATCH,PROXIES

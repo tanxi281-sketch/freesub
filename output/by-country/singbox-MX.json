@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - TanXi"
+        "🇲🇽 MX 01 - TanXi",
+        "🇲🇽 MX 02 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - TanXi"
+        "🇲🇽 MX 01 - TanXi",
+        "🇲🇽 MX 02 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
