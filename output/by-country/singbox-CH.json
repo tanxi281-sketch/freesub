@@ -7,7 +7,10 @@
       "outbounds": [
         "auto",
         "🇨🇭 CH 01 - TanXi",
-        "🇨🇭 CH 02 - TanXi"
+        "🇨🇭 CH 02 - TanXi",
+        "🇨🇭 CH 03 - TanXi",
+        "🇨🇭 CH 04 - TanXi",
+        "🇨🇭 CH 05 - TanXi"
       ]
     },
     {
@@ -15,7 +18,10 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇭 CH 01 - TanXi",
-        "🇨🇭 CH 02 - TanXi"
+        "🇨🇭 CH 02 - TanXi",
+        "🇨🇭 CH 03 - TanXi",
+        "🇨🇭 CH 04 - TanXi",
+        "🇨🇭 CH 05 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
