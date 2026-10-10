@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇩 MD 01 - TanXi",
+        "🇲🇩 MD 02 - TanXi",
+        "🇲🇩 MD 03 - TanXi",
+        "🇲🇩 MD 04 - TanXi",
+        "🇲🇩 MD 05 - TanXi",
+        "🇲🇩 MD 06 - TanXi",
+        "🇲🇩 MD 07 - TanXi",
+        "🇲🇩 MD 08 - TanXi",
+        "🇲🇩 MD 09 - TanXi",
+        "🇲🇩 MD 10 - TanXi",
+        "🇲🇩 MD 11 - TanXi",
+        "🇲🇩 MD 12 - TanXi",
+        "🇲🇩 MD 13 - TanXi",
+        "🇲🇩 MD 14 - TanXi",
+        "🇲🇩 MD 15 - TanXi",
+        "🇲🇩 MD 16 - TanXi",
+        "🇲🇩 MD 17 - TanXi"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇩 MD 01 - TanXi",
+        "🇲🇩 MD 02 - TanXi",
+        "🇲🇩 MD 03 - TanXi",
+        "🇲🇩 MD 04 - TanXi",
+        "🇲🇩 MD 05 - TanXi",
+        "🇲🇩 MD 06 - TanXi",
+        "🇲🇩 MD 07 - TanXi",
+        "🇲🇩 MD 08 - TanXi",
+        "🇲🇩 MD 09 - TanXi",
+        "🇲🇩 MD 10 - TanXi",
+        "🇲🇩 MD 11 - TanXi",
+        "🇲🇩 MD 12 - TanXi",
+        "🇲🇩 MD 13 - TanXi",
+        "🇲🇩 MD 14 - TanXi",
+        "🇲🇩 MD 15 - TanXi",
+        "🇲🇩 MD 16 - TanXi",
+        "🇲🇩 MD 17 - TanXi"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
