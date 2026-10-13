@@ -36,6 +36,15 @@ proxies:
     path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
     headers:
       Host: cf3.schzyc.cc.cd
+- name: 🇪🇪 EE 04 - TanXi
+  type: vless
+  server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -44,6 +53,7 @@ proxy-groups:
   - 🇪🇪 EE 01 - TanXi
   - 🇪🇪 EE 02 - TanXi
   - 🇪🇪 EE 03 - TanXi
+  - 🇪🇪 EE 04 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -52,5 +62,6 @@ proxy-groups:
   - 🇪🇪 EE 01 - TanXi
   - 🇪🇪 EE 02 - TanXi
   - 🇪🇪 EE 03 - TanXi
+  - 🇪🇪 EE 04 - TanXi
 rules:
 - MATCH,PROXIES

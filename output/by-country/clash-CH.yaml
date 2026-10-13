@@ -5,13 +5,68 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - TanXi
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 7121d0be-40f5-4eda-b3d1-1556e71ea4fa
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: shrill-recipe-0c1d.404-a1d.workers.dev
+- name: 🇨🇭 CH 02 - TanXi
+  type: vless
+  server: 116.204.164.60
+  port: 7443
+  uuid: c676be7d-b481-4bba-88d0-65855e09dc67
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇨🇭 CH 03 - TanXi
+  type: vless
+  server: 162.159.152.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rayan-007.maxima.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.maxima.dpdns.org
+- name: 🇨🇭 CH 04 - TanXi
+  type: vless
+  server: 89.22.224.146
+  port: 43788
+  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇨🇭 CH 05 - TanXi
   type: ss
   server: 132.243.175.144
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-- name: 🇨🇭 CH 02 - TanXi
+- name: 🇨🇭 CH 06 - TanXi
   type: vless
   server: 185.18.250.245
   port: 443
@@ -25,20 +80,6 @@ proxies:
     path: /nl-tw
     headers:
       Host: edu.ruangguru.com.r3xxe.eu.cc
-- name: 🇨🇭 CH 03 - TanXi
-  type: vless
-  server: 128.241.25.72
-  port: 30021
-  uuid: 65f26a08-9a5e-4b28-9004-f98676cc1e49
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,6 +88,9 @@ proxy-groups:
   - 🇨🇭 CH 01 - TanXi
   - 🇨🇭 CH 02 - TanXi
   - 🇨🇭 CH 03 - TanXi
+  - 🇨🇭 CH 04 - TanXi
+  - 🇨🇭 CH 05 - TanXi
+  - 🇨🇭 CH 06 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -55,5 +99,8 @@ proxy-groups:
   - 🇨🇭 CH 01 - TanXi
   - 🇨🇭 CH 02 - TanXi
   - 🇨🇭 CH 03 - TanXi
+  - 🇨🇭 CH 04 - TanXi
+  - 🇨🇭 CH 05 - TanXi
+  - 🇨🇭 CH 06 - TanXi
 rules:
 - MATCH,PROXIES

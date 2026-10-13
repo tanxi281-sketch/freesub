@@ -5,11 +5,92 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - TanXi
+  type: vless
+  server: 104.18.35.86
+  port: 443
+  uuid: 1c7f675f-5923-463f-83fb-af4c898cecea
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZWhuWFFGNWRISXBjSmRGWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+    headers:
+      Host: 0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv
+- name: 🇷🇺 俄罗斯 (Russia) 02 - TanXi
+  type: vless
+  server: 172.67.152.162
+  port: 443
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  network: ws
+  ws-opts:
+    path: /cmh
+    headers:
+      Host: app-q0zc4t.user-4gfyh5.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 03 - TanXi
+  type: vless
+  server: 104.21.68.250
+  port: 443
+  uuid: 3cd23424-7182-4f37-9461-7701917791f6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: NOde-562276409-eCe9Be.AcCouNT12.WORKERs.DeV
+  network: ws
+  ws-opts:
+    path: /vl/LoojiwDChctBr67OEQH2dfP05?ed=2560
+    headers:
+      Host: node-562276409-ece9be.account12.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 04 - TanXi
   type: ss
   server: 130.49.189.158
   port: 43558
   cipher: chacha20-ietf-poly1305
   password: 52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 05 - TanXi
+  type: vmess
+  server: renderer-stream-2-114.mirra.now
+  port: 443
+  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: renderer-stream-2-114.mirra.now
+  network: ws
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-114.mirra.now
+- name: 🇷🇺 俄罗斯 (Russia) 06 - TanXi
+  type: vmess
+  server: renderer-stream-2-114.mirra.now
+  port: 443
+  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: renderer-stream-2-114.mirra.now
+  network: ws
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-114.mirra.now
+- name: 🇷🇺 俄罗斯 (Russia) 07 - TanXi
+  type: ss
+  server: 46.17.41.166
+  port: 20119
+  cipher: aes-256-gcm
+  password: 895b4b796a357570
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -17,11 +98,23 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 02 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 03 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 04 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 05 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 06 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 07 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 02 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 03 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 04 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 05 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 06 - TanXi
+  - 🇷🇺 俄罗斯 (Russia) 07 - TanXi
 rules:
 - MATCH,PROXIES
