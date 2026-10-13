@@ -6,34 +6,19 @@ log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - TanXi
   type: vless
-  server: 104.18.35.15
+  server: 104.16.10.2
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /tyxyws
     headers:
-      Host: lucasjow.us.ci
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 02 - TanXi
-  type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: ''
-- name: 🇯🇵 日本 (Japan) 03 - TanXi
   type: vless
   server: 104.16.111.195
   port: 443
@@ -47,9 +32,23 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 03 - TanXi
+  type: vless
+  server: 104.18.153.10
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 04 - TanXi
   type: vless
-  server: 104.16.10.104
+  server: 188.114.97.6
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -64,69 +63,64 @@ proxies:
 - name: 🇯🇵 日本 (Japan) 05 - TanXi
   type: ss
   server: 84.247.155.196
-  port: 443
+  port: 80
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
   udp: true
 - name: 🇯🇵 日本 (Japan) 06 - TanXi
-  type: vless
-  server: 172.64.146.66
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 07 - TanXi
   type: ss
-  server: 149.22.87.204
+  server: 149.22.87.241
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 08 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇯🇵 日本 (Japan) 07 - TanXi
+  type: vmess
+  server: 140.238.55.84
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: 140.238.55.84
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /or3
     headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 09 - TanXi
+      Host: 140.238.55.84
+- name: 🇯🇵 日本 (Japan) 08 - TanXi
   type: ss
   server: 149.22.87.240
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 10 - TanXi
+- name: 🇯🇵 日本 (Japan) 09 - TanXi
   type: vless
-  server: 104.16.10.185
+  server: 162.159.128.96
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: f90e2825-6433-46b0-91a2-971f335b887a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: ws-japan-ga-01.xyy123.bid
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: ws-japan-ga-01.xyy123.bid
+- name: 🇯🇵 日本 (Japan) 10 - TanXi
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
 - name: 🇯🇵 日本 (Japan) 11 - TanXi
   type: vless
-  server: 104.24.31.89
+  server: 104.19.33.237
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -140,92 +134,19 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 12 - TanXi
   type: vless
-  server: 188.114.97.6
+  server: 152.69.200.216
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /tyxyws
     headers:
-      Host: lucasjow.us.ci
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 13 - TanXi
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 14 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 15 - TanXi
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 16 - TanXi
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 17 - TanXi
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 18 - TanXi
-  type: vless
-  server: 104.16.111.202
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 19 - TanXi
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 20 - TanXi
   type: vless
   server: 104.21.70.228
   port: 443
@@ -239,7 +160,379 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 14 - TanXi
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 15 - TanXi
+  type: vless
+  server: 104.19.33.237
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 16 - TanXi
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: jp01.a0a.xyz
+- name: 🇯🇵 日本 (Japan) 17 - TanXi
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 18 - TanXi
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 19 - TanXi
+  type: vless
+  server: 104.24.31.89
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 20 - TanXi
+  type: vless
+  server: 104.16.10.22
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 21 - TanXi
+  type: vless
+  server: 104.17.50.53
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 22 - TanXi
+  type: vless
+  server: 104.16.111.202
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 23 - TanXi
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 24 - TanXi
+  type: vless
+  server: 104.16.111.202
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 25 - TanXi
+  type: vless
+  server: 104.16.10.9
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 26 - TanXi
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 27 - TanXi
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 28 - TanXi
+  type: vless
+  server: 57.129.130.63
+  port: 52014
+  uuid: d731cf09-79a6-4647-aabe-8e0fda4fe3be
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇯🇵 日本 (Japan) 29 - TanXi
+  type: vless
+  server: 104.18.37.127
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 30 - TanXi
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 31 - TanXi
+  type: vless
+  server: 80.240.18.227
+  port: 10051
+  uuid: d161dcf1-fde2-44cc-b08d-d8944895e842
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+- name: 🇯🇵 日本 (Japan) 32 - TanXi
+  type: vless
+  server: 128.241.25.11
+  port: 30021
+  uuid: 72fbb611-628d-4afa-8198-bda3e38021f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+- name: 🇯🇵 日本 (Japan) 33 - TanXi
+  type: vless
+  server: 104.18.42.98
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 34 - TanXi
+  type: vless
+  server: 57.129.52.47
+  port: 52014
+  uuid: ecc4675b-1607-4699-8b20-23af97b671af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+- name: 🇯🇵 日本 (Japan) 35 - TanXi
+  type: vless
+  server: 129.153.71.28
+  port: 28863
+  uuid: 3e956106-7f92-4cbf-bf77-715d3890fa84
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+- name: 🇯🇵 日本 (Japan) 36 - TanXi
+  type: vless
+  server: 8.219.155.125
+  port: 443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vp10.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp10.pages.dev
+- name: 🇯🇵 日本 (Japan) 37 - TanXi
+  type: vless
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 38 - TanXi
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 39 - TanXi
+  type: vless
+  server: 84.22.150.39
+  port: 7443
+  uuid: 9d5cbb90-876b-448d-9874-27ab35bae6e7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+- name: 🇯🇵 日本 (Japan) 40 - TanXi
+  type: vless
+  server: 57.129.130.57
+  port: 52014
+  uuid: 47ba5dc6-8961-48a0-8b54-f57ec524627a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- name: 🇯🇵 日本 (Japan) 41 - TanXi
   type: vmess
   server: jp5.998998.best
   port: 443
@@ -255,7 +548,7 @@ proxies:
     path: /ieusrdgfhteuirgfiuws
     headers:
       Host: server11.9966338.xyz
-- name: 🇯🇵 日本 (Japan) 22 - TanXi
+- name: 🇯🇵 日本 (Japan) 42 - TanXi
   type: vless
   server: 137.220.221.179
   port: 443
@@ -263,6 +556,92 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 43 - TanXi
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 44 - TanXi
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 45 - TanXi
+  type: vless
+  server: 116.204.164.17
+  port: 7443
+  uuid: ef8907eb-8bb5-4735-80f2-1d0068500d95
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: 🇯🇵 日本 (Japan) 46 - TanXi
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 47 - TanXi
+  type: vless
+  server: 104.16.10.48
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 48 - TanXi
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 49 - TanXi
+  type: vless
+  server: 5.9.117.252
+  port: 4433
+  uuid: ef286b0e-21ed-4e2b-9110-e2ddc7627892
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇯🇵 日本 (Japan) 50 - TanXi
+  type: vless
+  server: 129.151.64.169
+  port: 31867
+  uuid: f7ff2e67-b687-4098-a28a-d102c27ba19c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -290,6 +669,34 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 20 - TanXi
   - 🇯🇵 日本 (Japan) 21 - TanXi
   - 🇯🇵 日本 (Japan) 22 - TanXi
+  - 🇯🇵 日本 (Japan) 23 - TanXi
+  - 🇯🇵 日本 (Japan) 24 - TanXi
+  - 🇯🇵 日本 (Japan) 25 - TanXi
+  - 🇯🇵 日本 (Japan) 26 - TanXi
+  - 🇯🇵 日本 (Japan) 27 - TanXi
+  - 🇯🇵 日本 (Japan) 28 - TanXi
+  - 🇯🇵 日本 (Japan) 29 - TanXi
+  - 🇯🇵 日本 (Japan) 30 - TanXi
+  - 🇯🇵 日本 (Japan) 31 - TanXi
+  - 🇯🇵 日本 (Japan) 32 - TanXi
+  - 🇯🇵 日本 (Japan) 33 - TanXi
+  - 🇯🇵 日本 (Japan) 34 - TanXi
+  - 🇯🇵 日本 (Japan) 35 - TanXi
+  - 🇯🇵 日本 (Japan) 36 - TanXi
+  - 🇯🇵 日本 (Japan) 37 - TanXi
+  - 🇯🇵 日本 (Japan) 38 - TanXi
+  - 🇯🇵 日本 (Japan) 39 - TanXi
+  - 🇯🇵 日本 (Japan) 40 - TanXi
+  - 🇯🇵 日本 (Japan) 41 - TanXi
+  - 🇯🇵 日本 (Japan) 42 - TanXi
+  - 🇯🇵 日本 (Japan) 43 - TanXi
+  - 🇯🇵 日本 (Japan) 44 - TanXi
+  - 🇯🇵 日本 (Japan) 45 - TanXi
+  - 🇯🇵 日本 (Japan) 46 - TanXi
+  - 🇯🇵 日本 (Japan) 47 - TanXi
+  - 🇯🇵 日本 (Japan) 48 - TanXi
+  - 🇯🇵 日本 (Japan) 49 - TanXi
+  - 🇯🇵 日本 (Japan) 50 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -317,5 +724,33 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 20 - TanXi
   - 🇯🇵 日本 (Japan) 21 - TanXi
   - 🇯🇵 日本 (Japan) 22 - TanXi
+  - 🇯🇵 日本 (Japan) 23 - TanXi
+  - 🇯🇵 日本 (Japan) 24 - TanXi
+  - 🇯🇵 日本 (Japan) 25 - TanXi
+  - 🇯🇵 日本 (Japan) 26 - TanXi
+  - 🇯🇵 日本 (Japan) 27 - TanXi
+  - 🇯🇵 日本 (Japan) 28 - TanXi
+  - 🇯🇵 日本 (Japan) 29 - TanXi
+  - 🇯🇵 日本 (Japan) 30 - TanXi
+  - 🇯🇵 日本 (Japan) 31 - TanXi
+  - 🇯🇵 日本 (Japan) 32 - TanXi
+  - 🇯🇵 日本 (Japan) 33 - TanXi
+  - 🇯🇵 日本 (Japan) 34 - TanXi
+  - 🇯🇵 日本 (Japan) 35 - TanXi
+  - 🇯🇵 日本 (Japan) 36 - TanXi
+  - 🇯🇵 日本 (Japan) 37 - TanXi
+  - 🇯🇵 日本 (Japan) 38 - TanXi
+  - 🇯🇵 日本 (Japan) 39 - TanXi
+  - 🇯🇵 日本 (Japan) 40 - TanXi
+  - 🇯🇵 日本 (Japan) 41 - TanXi
+  - 🇯🇵 日本 (Japan) 42 - TanXi
+  - 🇯🇵 日本 (Japan) 43 - TanXi
+  - 🇯🇵 日本 (Japan) 44 - TanXi
+  - 🇯🇵 日本 (Japan) 45 - TanXi
+  - 🇯🇵 日本 (Japan) 46 - TanXi
+  - 🇯🇵 日本 (Japan) 47 - TanXi
+  - 🇯🇵 日本 (Japan) 48 - TanXi
+  - 🇯🇵 日本 (Japan) 49 - TanXi
+  - 🇯🇵 日本 (Japan) 50 - TanXi
 rules:
 - MATCH,PROXIES
