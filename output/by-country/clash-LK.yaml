@@ -7,30 +7,18 @@ proxies:
 - name: 🇱🇰 LK 01 - TanXi
   type: vless
   server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
   network: ws
   ws-opts:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 02 - TanXi
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 03 - TanXi
   type: vless
   server: support.zoom.us
   port: 80
@@ -43,9 +31,22 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 04 - TanXi
+- name: 🇱🇰 LK 03 - TanXi
   type: vless
   server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 04 - TanXi
+  type: vless
+  server: centurylink.es
   port: 8443
   uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
   udp: true
@@ -59,7 +60,7 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 05 - TanXi
   type: vless
-  server: support.zoom.us
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
   udp: true
@@ -85,21 +86,7 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 07 - TanXi
   type: vless
-  server: centurylink.es
-  port: 8443
-  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: free.sahanwickramasinghe.me
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 08 - TanXi
-  type: vless
-  server: free.sahanwickramasinghe.me
+  server: support.zoom.us
   port: 80
   uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
   udp: true
@@ -122,7 +109,6 @@ proxy-groups:
   - 🇱🇰 LK 05 - TanXi
   - 🇱🇰 LK 06 - TanXi
   - 🇱🇰 LK 07 - TanXi
-  - 🇱🇰 LK 08 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -135,6 +121,5 @@ proxy-groups:
   - 🇱🇰 LK 05 - TanXi
   - 🇱🇰 LK 06 - TanXi
   - 🇱🇰 LK 07 - TanXi
-  - 🇱🇰 LK 08 - TanXi
 rules:
 - MATCH,PROXIES
