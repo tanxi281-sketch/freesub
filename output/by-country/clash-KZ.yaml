@@ -5,21 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - TanXi
-  type: vmess
-  server: 3h-kazakhstan1.09vpn.com
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇰🇿 KZ 02 - TanXi
   type: vless
   server: 109.248.170.119
   port: 13447
@@ -31,7 +16,7 @@ proxies:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
   servername: yahoo.com
   client-fingerprint: firefox
-- name: 🇰🇿 KZ 03 - TanXi
+- name: 🇰🇿 KZ 02 - TanXi
   type: vless
   server: 109.248.170.119
   port: 13447
@@ -41,6 +26,18 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
+  servername: yahoo.com
+  client-fingerprint: chrome
+- name: 🇰🇿 KZ 03 - TanXi
+  type: vless
+  server: 178.236.16.98
+  port: 35728
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
   servername: yahoo.com
   client-fingerprint: chrome
 - name: 🇰🇿 KZ 04 - TanXi
@@ -55,78 +52,6 @@ proxies:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇰🇿 KZ 05 - TanXi
-  type: vless
-  server: 83.222.23.81
-  port: 38065
-  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇰🇿 KZ 06 - TanXi
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: ''
-- name: 🇰🇿 KZ 07 - TanXi
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: ''
-- name: 🇰🇿 KZ 08 - TanXi
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 38.107.234.57
-- name: 🇰🇿 KZ 09 - TanXi
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -136,11 +61,6 @@ proxy-groups:
   - 🇰🇿 KZ 02 - TanXi
   - 🇰🇿 KZ 03 - TanXi
   - 🇰🇿 KZ 04 - TanXi
-  - 🇰🇿 KZ 05 - TanXi
-  - 🇰🇿 KZ 06 - TanXi
-  - 🇰🇿 KZ 07 - TanXi
-  - 🇰🇿 KZ 08 - TanXi
-  - 🇰🇿 KZ 09 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -150,10 +70,5 @@ proxy-groups:
   - 🇰🇿 KZ 02 - TanXi
   - 🇰🇿 KZ 03 - TanXi
   - 🇰🇿 KZ 04 - TanXi
-  - 🇰🇿 KZ 05 - TanXi
-  - 🇰🇿 KZ 06 - TanXi
-  - 🇰🇿 KZ 07 - TanXi
-  - 🇰🇿 KZ 08 - TanXi
-  - 🇰🇿 KZ 09 - TanXi
 rules:
 - MATCH,PROXIES
