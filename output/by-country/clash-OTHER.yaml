@@ -6,77 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - TanXi
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 02 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 03 - TanXi
-  type: vless
-  server: cf.130519.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 04 - TanXi
-  type: vless
   server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 05 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 06 - TanXi
-  type: vless
-  server: 104.18.40.100
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -88,90 +18,34 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 07 - TanXi
+- name: 🌐 其他地区 (Other) 02 - TanXi
   type: vless
-  server: b2n.ir
+  server: 172.66.154.57
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    path: /
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 08 - TanXi
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 03 - TanXi
   type: vless
-  server: 104.18.35.86
-  port: 8080
+  server: 172.64.150.28
+  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /sg-melbi
+    path: /fp
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 09 - TanXi
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 10 - TanXi
-  type: vless
-  server: 104.16.10.22
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 11 - TanXi
-  type: vless
-  server: 104.16.10.72
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 12 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 13 - TanXi
+- name: 🌐 其他地区 (Other) 04 - TanXi
   type: vless
   server: 172.64.146.66
   port: 443
@@ -185,9 +59,136 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 05 - TanXi
+  type: vless
+  server: 104.26.4.2
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 06 - TanXi
+  type: vless
+  server: b2n.ir
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 07 - TanXi
+  type: vless
+  server: freesocks.work
+  port: 2052
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+- name: 🌐 其他地区 (Other) 08 - TanXi
+  type: vmess
+  server: us16-4.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server1.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /efrsdioy98wert
+    headers:
+      Host: server1.9966338.xyz
+- name: 🌐 其他地区 (Other) 09 - TanXi
+  type: vless
+  server: 104.18.47.73
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 10 - TanXi
+  type: vless
+  server: 172.64.158.170
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 11 - TanXi
+  type: vless
+  server: 104.16.10.197
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 12 - TanXi
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 13 - TanXi
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 14 - TanXi
   type: vless
-  server: 104.16.10.135
+  server: 104.21.0.87
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -201,7 +202,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 15 - TanXi
   type: vless
-  server: 162.159.250.29
+  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -210,52 +211,37 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 16 - TanXi
   type: vless
-  server: 104.24.2.147
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: a.cwvps.eu.org
   network: ws
   ws-opts:
-    path: /ws
+    path: /sg-melbi?ed#Telegram---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN
     headers:
-      Host: a.cwvps.eu.org
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🌐 其他地区 (Other) 17 - TanXi
   type: vless
-  server: 104.17.73.206
-  port: 8443
-  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: free.sahanwickramasinghe.me
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🌐 其他地区 (Other) 18 - TanXi
-  type: vless
-  server: 172.64.158.170
+  server: b2n.ir
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
     headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 19 - TanXi
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 18 - TanXi
   type: vless
   server: 172.64.153.153
   port: 443
@@ -269,6 +255,20 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
     headers:
       Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 19 - TanXi
+  type: vless
+  server: 104.16.111.102
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 20 - TanXi
   type: vless
   server: 188.114.97.6
@@ -285,33 +285,47 @@ proxies:
       Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 21 - TanXi
   type: vless
-  server: 104.18.37.247
+  server: 104.16.10.135
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: a.cwvps.eu.org
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+    path: /ws#/?----?ed=512
     headers:
-      Host: ccc.010304.xyz
+      Host: a.cwvps.eu.org
 - name: 🌐 其他地区 (Other) 22 - TanXi
   type: vless
-  server: 104.26.4.2
+  server: 162.159.250.29
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
-      Host: ccc.010304.xyz
+      Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 23 - TanXi
+  type: vless
+  server: 104.16.10.84
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 24 - TanXi
   type: vless
   server: 172.64.152.241
   port: 443
@@ -325,9 +339,23 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 24 - TanXi
+- name: 🌐 其他地区 (Other) 25 - TanXi
   type: vless
-  server: b2n.ir
+  server: 104.24.2.147
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 26 - TanXi
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -336,66 +364,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---ATLAS_V2VPN
+    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 25 - TanXi
-  type: vless
-  server: 104.20.17.210
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 26 - TanXi
-  type: vless
-  server: cf.130519.xyz
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 27 - TanXi
-  type: vless
-  server: 172.66.154.57
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 28 - TanXi
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 29 - TanXi
   type: vless
   server: cf.090227.xyz
   port: 443
@@ -409,7 +381,91 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132fp=qq
     headers:
       Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 28 - TanXi
+  type: vless
+  server: 104.18.37.247
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 29 - TanXi
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    headers:
+      Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 30 - TanXi
+  type: vless
+  server: 104.26.4.2
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 31 - TanXi
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 32 - TanXi
+  type: vless
+  server: 104.21.93.182
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 33 - TanXi
+  type: vless
+  server: cf.130519.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 34 - TanXi
   type: vmess
   server: 172.67.167.78
   port: 8443
@@ -425,80 +481,25 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 31 - TanXi
+- name: 🌐 其他地区 (Other) 35 - TanXi
   type: vmess
-  server: hk2.998998.best
+  server: node8.liudonghoe.com
   port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: server15.9966338.xyz
+  servername: ''
   network: ws
   ws-opts:
-    path: /asivewritten
+    path: /hoe8
     headers:
-      Host: server15.9966338.xyz
-- name: 🌐 其他地区 (Other) 32 - TanXi
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 33 - TanXi
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---config_Qavi
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 34 - TanXi
-  type: vless
-  server: 104.16.10.135
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 35 - TanXi
-  type: vless
-  server: 104.17.74.206
-  port: 8443
-  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: free.sahanwickramasinghe.me
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
+      Host: ''
 - name: 🌐 其他地区 (Other) 36 - TanXi
   type: vless
-  server: 172.64.146.66
+  server: 104.20.17.210
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -512,6 +513,20 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 37 - TanXi
   type: vless
+  server: 104.16.10.135
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 38 - TanXi
+  type: vless
   server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
@@ -521,12 +536,40 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 38 - TanXi
+- name: 🌐 其他地区 (Other) 39 - TanXi
   type: vless
-  server: 172.67.172.155
+  server: 188.114.98.0
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server8.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /fdtiouasopeiyre0r95y8?ed=2560
+    headers:
+      Host: server8.9966338.xyz
+- name: 🌐 其他地区 (Other) 40 - TanXi
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server5.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /drsukitgreiusweqa9otrh983
+    headers:
+      Host: server5.9966338.xyz
+- name: 🌐 其他地区 (Other) 41 - TanXi
+  type: vless
+  server: 104.21.91.244
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -535,41 +578,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 39 - TanXi
+- name: 🌐 其他地区 (Other) 42 - TanXi
   type: vless
-  server: freesocks.work
-  port: 2052
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-- name: 🌐 其他地区 (Other) 40 - TanXi
-  type: vmess
-  server: 172.67.161.144
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 41 - TanXi
-  type: vless
-  server: 162.159.192.125
+  server: 188.114.97.6
   port: 443
   uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
@@ -581,9 +595,23 @@ proxies:
     path: /ws
     headers:
       Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 42 - TanXi
+- name: 🌐 其他地区 (Other) 43 - TanXi
   type: vless
-  server: 104.26.4.2
+  server: 104.18.41.190
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 44 - TanXi
+  type: vless
+  server: cf.130519.xyz
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -595,21 +623,20 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 43 - TanXi
+- name: 🌐 其他地区 (Other) 45 - TanXi
   type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    path: /sg-melbi
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 44 - TanXi
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 46 - TanXi
   type: vless
   server: 188.114.97.6
   port: 443
@@ -620,24 +647,23 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---DailyConfigs
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 45 - TanXi
+- name: 🌐 其他地区 (Other) 47 - TanXi
   type: vless
-  server: 104.18.47.73
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 172.64.150.43
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+    path: /sg-melbi
     headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 46 - TanXi
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 48 - TanXi
   type: vless
   server: 104.21.93.182
   port: 443
@@ -651,9 +677,23 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 47 - TanXi
+- name: 🌐 其他地区 (Other) 49 - TanXi
   type: vless
-  server: 104.21.93.182
+  server: 172.64.146.66
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 50 - TanXi
+  type: vless
+  server: 162.159.250.29
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -662,10 +702,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 48 - TanXi
+- name: 🌐 其他地区 (Other) 51 - TanXi
   type: vless
   server: 104.21.91.244
   port: 443
@@ -676,10 +716,66 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 49 - TanXi
+- name: 🌐 其他地区 (Other) 52 - TanXi
+  type: vless
+  server: 104.17.189.78
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 53 - TanXi
+  type: vless
+  server: 104.19.12.94
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 54 - TanXi
+  type: vless
+  server: b2n.ir
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---ATLAS_V2VPN
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 55 - TanXi
+  type: vless
+  server: 104.16.10.2
+  port: 443
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray.simspeedup.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
+- name: 🌐 其他地区 (Other) 56 - TanXi
   type: vless
   server: 104.18.41.190
   port: 443
@@ -693,34 +789,47 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 50 - TanXi
+- name: 🌐 其他地区 (Other) 57 - TanXi
   type: vless
-  server: 104.17.70.206
-  port: 8443
-  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  server: 104.18.35.86
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: free.sahanwickramasinghe.me
   network: ws
   ws-opts:
-    path: /
+    path: /fp
     headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🌐 其他地区 (Other) 51 - TanXi
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 58 - TanXi
   type: vless
-  server: 104.19.33.237
+  server: b2n.ir
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
-      Host: jp3.yohototo.top
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 59 - TanXi
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+    headers:
+      Host: ccc.010304.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -777,6 +886,14 @@ proxy-groups:
   - 🌐 其他地区 (Other) 49 - TanXi
   - 🌐 其他地区 (Other) 50 - TanXi
   - 🌐 其他地区 (Other) 51 - TanXi
+  - 🌐 其他地区 (Other) 52 - TanXi
+  - 🌐 其他地区 (Other) 53 - TanXi
+  - 🌐 其他地区 (Other) 54 - TanXi
+  - 🌐 其他地区 (Other) 55 - TanXi
+  - 🌐 其他地区 (Other) 56 - TanXi
+  - 🌐 其他地区 (Other) 57 - TanXi
+  - 🌐 其他地区 (Other) 58 - TanXi
+  - 🌐 其他地区 (Other) 59 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -833,5 +950,13 @@ proxy-groups:
   - 🌐 其他地区 (Other) 49 - TanXi
   - 🌐 其他地区 (Other) 50 - TanXi
   - 🌐 其他地区 (Other) 51 - TanXi
+  - 🌐 其他地区 (Other) 52 - TanXi
+  - 🌐 其他地区 (Other) 53 - TanXi
+  - 🌐 其他地区 (Other) 54 - TanXi
+  - 🌐 其他地区 (Other) 55 - TanXi
+  - 🌐 其他地区 (Other) 56 - TanXi
+  - 🌐 其他地区 (Other) 57 - TanXi
+  - 🌐 其他地区 (Other) 58 - TanXi
+  - 🌐 其他地区 (Other) 59 - TanXi
 rules:
 - MATCH,PROXIES
