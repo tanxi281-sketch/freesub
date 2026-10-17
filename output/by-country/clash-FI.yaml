@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇫🇮 FI 02 - TanXi
   type: vless
   server: 95.216.27.15
@@ -27,16 +27,8 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇫🇮 FI 03 - TanXi
-  type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇮 FI 04 - TanXi
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -48,7 +40,7 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
   client-fingerprint: chrome
-- name: 🇫🇮 FI 05 - TanXi
+- name: 🇫🇮 FI 04 - TanXi
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -61,15 +53,19 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 FI 06 - TanXi
+- name: 🇫🇮 FI 05 - TanXi
   type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  server: mci.amir12.ir
+  port: 2112
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-- name: 🇫🇮 FI 07 - TanXi
+  reality-opts:
+    public-key: p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 06 - TanXi
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -80,15 +76,7 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: random
-- name: 🇫🇮 FI 08 - TanXi
-  type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -100,8 +88,6 @@ proxy-groups:
   - 🇫🇮 FI 04 - TanXi
   - 🇫🇮 FI 05 - TanXi
   - 🇫🇮 FI 06 - TanXi
-  - 🇫🇮 FI 07 - TanXi
-  - 🇫🇮 FI 08 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -113,7 +99,5 @@ proxy-groups:
   - 🇫🇮 FI 04 - TanXi
   - 🇫🇮 FI 05 - TanXi
   - 🇫🇮 FI 06 - TanXi
-  - 🇫🇮 FI 07 - TanXi
-  - 🇫🇮 FI 08 - TanXi
 rules:
 - MATCH,PROXIES
