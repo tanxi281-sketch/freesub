@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇵🇭 PH 01 - TanXi",
+        "🇵🇭 PH 02 - TanXi",
+        "🇵🇭 PH 03 - TanXi",
+        "🇵🇭 PH 04 - TanXi",
+        "🇵🇭 PH 05 - TanXi",
+        "🇵🇭 PH 06 - TanXi",
+        "🇵🇭 PH 07 - TanXi",
+        "🇵🇭 PH 08 - TanXi",
+        "🇵🇭 PH 09 - TanXi",
+        "🇵🇭 PH 10 - TanXi",
+        "🇵🇭 PH 11 - TanXi",
+        "🇵🇭 PH 12 - TanXi"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇵🇭 PH 01 - TanXi",
+        "🇵🇭 PH 02 - TanXi",
+        "🇵🇭 PH 03 - TanXi",
+        "🇵🇭 PH 04 - TanXi",
+        "🇵🇭 PH 05 - TanXi",
+        "🇵🇭 PH 06 - TanXi",
+        "🇵🇭 PH 07 - TanXi",
+        "🇵🇭 PH 08 - TanXi",
+        "🇵🇭 PH 09 - TanXi",
+        "🇵🇭 PH 10 - TanXi",
+        "🇵🇭 PH 11 - TanXi",
+        "🇵🇭 PH 12 - TanXi"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
