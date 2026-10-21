@@ -12,18 +12,6 @@ proxies:
   password: TEzjfAYq2IjtuoS
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 02 - TanXi
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 03 - TanXi
   type: vmess
   server: seoul02.zgjok.com
   port: 443
@@ -39,7 +27,7 @@ proxies:
     path: ''
     headers:
       Host: ''
-- name: 🇰🇷 韩国 (South Korea) 04 - TanXi
+- name: 🇰🇷 韩国 (South Korea) 03 - TanXi
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -50,7 +38,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -59,7 +47,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 - TanXi
   - 🇰🇷 韩国 (South Korea) 02 - TanXi
   - 🇰🇷 韩国 (South Korea) 03 - TanXi
-  - 🇰🇷 韩国 (South Korea) 04 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -68,6 +55,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 01 - TanXi
   - 🇰🇷 韩国 (South Korea) 02 - TanXi
   - 🇰🇷 韩国 (South Korea) 03 - TanXi
-  - 🇰🇷 韩国 (South Korea) 04 - TanXi
 rules:
 - MATCH,PROXIES
