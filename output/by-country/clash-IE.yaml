@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇺 俄罗斯 (Russia) 01 - TanXi
+- name: 🇮🇪 IE 01 - TanXi
   type: ss
-  server: 176.32.33.153
-  port: 18443
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  server: 20.223.233.241
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: Ds3hlPero5ov6gae
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇺 俄罗斯 (Russia) 01 - TanXi
+  - 🇮🇪 IE 01 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇺 俄罗斯 (Russia) 01 - TanXi
+  - 🇮🇪 IE 01 - TanXi
 rules:
 - MATCH,PROXIES
