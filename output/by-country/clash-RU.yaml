@@ -13,24 +13,6 @@ proxies:
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - TanXi
   type: ss
-  server: 195.133.5.194
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - TanXi
-  type: vmess
-  server: 158.160.180.165
-  port: 24212
-  uuid: c58c1205-b308-416f-8503-c04557abf93d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 158.160.180.165
-- name: 🇷🇺 俄罗斯 (Russia) 04 - TanXi
-  type: ss
   server: 176.32.33.153
   port: 18443
   cipher: aes-256-gcm
@@ -43,8 +25,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 02 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 03 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 04 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -52,7 +32,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 02 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 03 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 04 - TanXi
 rules:
 - MATCH,PROXIES
