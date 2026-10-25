@@ -33,13 +33,6 @@ proxies:
     headers:
       Host: v2ray.simspeedup.com
 - name: 🇹🇭 TH 03 - TanXi
-  type: ss
-  server: pphfree2.mvpnpvpn.de5.net
-  port: 52351
-  cipher: aes-256-gcm
-  password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
-  udp: true
-- name: 🇹🇭 TH 04 - TanXi
   type: vless
   server: 103.86.49.57
   port: 80
@@ -60,7 +53,6 @@ proxy-groups:
   - 🇹🇭 TH 01 - TanXi
   - 🇹🇭 TH 02 - TanXi
   - 🇹🇭 TH 03 - TanXi
-  - 🇹🇭 TH 04 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,6 +61,5 @@ proxy-groups:
   - 🇹🇭 TH 01 - TanXi
   - 🇹🇭 TH 02 - TanXi
   - 🇹🇭 TH 03 - TanXi
-  - 🇹🇭 TH 04 - TanXi
 rules:
 - MATCH,PROXIES
