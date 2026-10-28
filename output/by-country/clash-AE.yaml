@@ -6,30 +6,30 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - TanXi
   type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 95.174.68.188
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - TanXi
   type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 95.174.68.188
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - TanXi
   type: vless
   server: uae.unixzone.us
@@ -58,7 +58,7 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 05 - TanXi
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -71,6 +71,84 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 06 - TanXi
   type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - TanXi
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 08 - TanXi
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 09 - TanXi
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 10 - TanXi
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 11 - TanXi
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 12 - TanXi
+  type: vless
   server: 95.174.68.188
   port: 14430
   uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
@@ -82,7 +160,72 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 07 - TanXi
+- name: 🇦🇪 阿联酋 (UAE) 13 - TanXi
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 14 - TanXi
+  type: vless
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+- name: 🇦🇪 阿联酋 (UAE) 15 - TanXi
+  type: vless
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+- name: 🇦🇪 阿联酋 (UAE) 16 - TanXi
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 17 - TanXi
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 18 - TanXi
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -107,6 +250,17 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - TanXi
   - 🇦🇪 阿联酋 (UAE) 06 - TanXi
   - 🇦🇪 阿联酋 (UAE) 07 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 08 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 09 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 10 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 11 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 12 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 13 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 14 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 15 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 16 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 17 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 18 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -119,5 +273,16 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - TanXi
   - 🇦🇪 阿联酋 (UAE) 06 - TanXi
   - 🇦🇪 阿联酋 (UAE) 07 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 08 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 09 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 10 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 11 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 12 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 13 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 14 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 15 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 16 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 17 - TanXi
+  - 🇦🇪 阿联酋 (UAE) 18 - TanXi
 rules:
 - MATCH,PROXIES

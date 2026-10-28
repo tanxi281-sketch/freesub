@@ -7,22 +7,17 @@ proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - TanXi
   type: ss
   server: 141.164.45.187
-  port: 8091
+  port: 5498
   cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
+  password: lGqs95QkFHo2NV
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 02 - TanXi
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  type: ss
+  server: 141.164.45.187
+  port: 9090
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 03 - TanXi
   type: vless
   server: 151.245.106.49
@@ -34,22 +29,8 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 04 - TanXi
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 05 - TanXi
-  type: ss
-  server: 141.164.45.187
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 06 - TanXi
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -60,8 +41,8 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇰🇷 韩国 (South Korea) 07 - TanXi
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 05 - TanXi
   type: vmess
   server: 132.145.80.230
   port: 80
@@ -76,7 +57,7 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: kr02.a0a.xyz
-- name: 🇰🇷 韩国 (South Korea) 08 - TanXi
+- name: 🇰🇷 韩国 (South Korea) 06 - TanXi
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -87,7 +68,19 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 07 - TanXi
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -100,7 +93,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 05 - TanXi
   - 🇰🇷 韩国 (South Korea) 06 - TanXi
   - 🇰🇷 韩国 (South Korea) 07 - TanXi
-  - 🇰🇷 韩国 (South Korea) 08 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -113,6 +105,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 05 - TanXi
   - 🇰🇷 韩国 (South Korea) 06 - TanXi
   - 🇰🇷 韩国 (South Korea) 07 - TanXi
-  - 🇰🇷 韩国 (South Korea) 08 - TanXi
 rules:
 - MATCH,PROXIES
