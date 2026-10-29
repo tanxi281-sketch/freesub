@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - TanXi
   type: vless
+  server: 177.3.208.65
+  port: 443
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tgmansion.site
+  network: ws
+  ws-opts:
+    path: /vless-tr
+    headers:
+      Host: 177.3.208.65
+- name: 🇹🇷 土耳其 (Turkey) 02 - TanXi
+  type: vless
   server: 151.241.226.201
   port: 2053
   uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
@@ -15,21 +29,7 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇹🇷 土耳其 (Turkey) 02 - TanXi
-  type: vless
-  server: 146.75.56.210
-  port: 443
-  uuid: 2c665ae0-9611-4a12-83e1-47a3ce9468b5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn.akamai.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Rastgubash-tarast-shi.global.ssl.fastly.net
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 03 - TanXi
   type: vless
   server: 151.241.226.201
@@ -44,6 +44,20 @@ proxies:
   client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 04 - TanXi
   type: vless
+  server: 155.103.71.142
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chromefp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇹🇷 土耳其 (Turkey) 05 - TanXi
+  type: vless
   server: 151.241.226.201
   port: 2053
   uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
@@ -53,22 +67,7 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 05 - TanXi
-  type: vmess
-  server: 153.52.92.43
-  port: 443
-  uuid: 2dd46701-dc47-5cad-997e-0a770090b178
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
+  client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 06 - TanXi
   type: vless
   server: 206.1.101.85
@@ -94,20 +93,8 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 08 - TanXi
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇹🇷 土耳其 (Turkey) 09 - TanXi
   type: vless
   server: 155.103.71.142
   port: 443
@@ -121,34 +108,16 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇹🇷 土耳其 (Turkey) 10 - TanXi
-  type: vless
-  server: 177.3.208.65
+- name: 🇹🇷 土耳其 (Turkey) 09 - TanXi
+  type: vmess
+  server: free.ertebatgoostar.ir
   port: 443
-  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  uuid: 118b0abc-c8f6-476a-9777-bc73f6e2548b
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: tgmansion.site
-  network: ws
-  ws-opts:
-    path: /vless-tr
-    headers:
-      Host: 177.3.208.65
-- name: 🇹🇷 土耳其 (Turkey) 11 - TanXi
-  type: vless
-  server: 155.103.71.142
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chromefp=chrome
-    headers:
-      Host: ccc.010304.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -163,8 +132,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 07 - TanXi
   - 🇹🇷 土耳其 (Turkey) 08 - TanXi
   - 🇹🇷 土耳其 (Turkey) 09 - TanXi
-  - 🇹🇷 土耳其 (Turkey) 10 - TanXi
-  - 🇹🇷 土耳其 (Turkey) 11 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -179,7 +146,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 07 - TanXi
   - 🇹🇷 土耳其 (Turkey) 08 - TanXi
   - 🇹🇷 土耳其 (Turkey) 09 - TanXi
-  - 🇹🇷 土耳其 (Turkey) 10 - TanXi
-  - 🇹🇷 土耳其 (Turkey) 11 - TanXi
 rules:
 - MATCH,PROXIES
