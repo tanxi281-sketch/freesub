@@ -6,10 +6,10 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - TanXi
   type: ss
-  server: 130.49.189.158
-  port: 43558
+  server: 159.194.251.76
+  port: 8388
   cipher: chacha20-ietf-poly1305
-  password: cZGr8nLHdf+FE5ZAw0Y/Rzsml4AyikGL481Pg7eBpsI=
+  password: MODziWLa9qMuW-4yPa0rfw
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - TanXi
   type: ss
@@ -20,10 +20,10 @@ proxies:
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 03 - TanXi
   type: ss
-  server: 159.194.251.76
-  port: 8388
+  server: 130.49.189.158
+  port: 43558
   cipher: chacha20-ietf-poly1305
-  password: MODziWLa9qMuW-4yPa0rfw
+  password: cZGr8nLHdf+FE5ZAw0Y/Rzsml4AyikGL481Pg7eBpsI=
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 04 - TanXi
   type: ss
