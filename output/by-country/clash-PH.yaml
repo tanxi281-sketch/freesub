@@ -24,7 +24,7 @@ proxies:
   servername: ph001.zestapp778.com
 - name: 🇵🇭 PH 03 - TanXi
   type: vless
-  server: ph001.zestapp778.com
+  server: 130.94.53.13
   port: 15656
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -32,6 +32,42 @@ proxies:
   skip-cert-verify: true
   servername: ph001.zestapp778.com
 - name: 🇵🇭 PH 04 - TanXi
+  type: vless
+  server: 130.94.53.13
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 05 - TanXi
+  type: vless
+  server: ph001.zestapp778.com
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 06 - TanXi
+  type: vless
+  server: ph001.zestapp778.com
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 07 - TanXi
+  type: vless
+  server: 130.94.53.13
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 08 - TanXi
   type: vless
   server: 130.94.53.13
   port: 15656
@@ -49,6 +85,10 @@ proxy-groups:
   - 🇵🇭 PH 02 - TanXi
   - 🇵🇭 PH 03 - TanXi
   - 🇵🇭 PH 04 - TanXi
+  - 🇵🇭 PH 05 - TanXi
+  - 🇵🇭 PH 06 - TanXi
+  - 🇵🇭 PH 07 - TanXi
+  - 🇵🇭 PH 08 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,5 +98,9 @@ proxy-groups:
   - 🇵🇭 PH 02 - TanXi
   - 🇵🇭 PH 03 - TanXi
   - 🇵🇭 PH 04 - TanXi
+  - 🇵🇭 PH 05 - TanXi
+  - 🇵🇭 PH 06 - TanXi
+  - 🇵🇭 PH 07 - TanXi
+  - 🇵🇭 PH 08 - TanXi
 rules:
 - MATCH,PROXIES

@@ -8,9 +8,7 @@
         "auto",
         "🇨🇳 CN 01 - TanXi",
         "🇨🇳 CN 02 - TanXi",
-        "🇨🇳 CN 03 - TanXi",
-        "🇨🇳 CN 04 - TanXi",
-        "🇨🇳 CN 05 - TanXi"
+        "🇨🇳 CN 03 - TanXi"
       ]
     },
     {
@@ -19,9 +17,7 @@
       "outbounds": [
         "🇨🇳 CN 01 - TanXi",
         "🇨🇳 CN 02 - TanXi",
-        "🇨🇳 CN 03 - TanXi",
-        "🇨🇳 CN 04 - TanXi",
-        "🇨🇳 CN 05 - TanXi"
+        "🇨🇳 CN 03 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
