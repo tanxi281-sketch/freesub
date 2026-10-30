@@ -6,16 +6,17 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - TanXi
   type: vless
-  server: p1real4.greewebservices.ir
-  port: 1260
-  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
+  server: 185.162.229.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-  servername: play.googleapis.com
-  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime61.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
