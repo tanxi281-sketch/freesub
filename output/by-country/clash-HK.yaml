@@ -6,100 +6,6 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - TanXi
   type: vmess
-  server: 8.218.195.61
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - TanXi
-  type: vmess
-  server: 47.243.194.125
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nycqg19zkwacpm1b.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - TanXi
-  type: vmess
-  server: 8.217.13.103
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - TanXi
-  type: vless
-  server: 104.21.29.202
-  port: 443
-  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: px2.5ibtc.cn
-  network: ws
-  ws-opts:
-    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
-    headers:
-      Host: px2.5ibtc.cn
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - TanXi
-  type: vmess
-  server: 47.243.194.125
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - TanXi
-  type: vmess
-  server: 8.218.195.61
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - TanXi
-  type: vmess
   server: i2psm3knof5qjjix.v.3dns.vip
   port: 443
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
@@ -114,22 +20,29 @@ proxies:
     path: /ws-vmess
     headers:
       Host: i2psm3knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - TanXi
-  type: vmess
-  server: euu1yalfmcqvljex.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - TanXi
+  type: vless
+  server: 104.21.29.202
   port: 443
-  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
-  alterId: 0
-  cipher: auto
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: euu1yalfmcqvljex.v.3dns.vip
+  servername: px2.5ibtc.cn
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
     headers:
-      Host: euu1yalfmcqvljex.v.3dns.vip
+      Host: px2.5ibtc.cn
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - TanXi
+  type: vless
+  server: 152.175.6.229
+  port: 31884
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk010.zestapp778.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -138,11 +51,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 - TanXi
   - 🇭🇰 中国香港 (Hong Kong) 02 - TanXi
   - 🇭🇰 中国香港 (Hong Kong) 03 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 04 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 05 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 06 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 07 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 08 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -151,10 +59,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 01 - TanXi
   - 🇭🇰 中国香港 (Hong Kong) 02 - TanXi
   - 🇭🇰 中国香港 (Hong Kong) 03 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 04 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 05 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 06 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 07 - TanXi
-  - 🇭🇰 中国香港 (Hong Kong) 08 - TanXi
 rules:
 - MATCH,PROXIES
