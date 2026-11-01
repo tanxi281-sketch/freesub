@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - TanXi
   type: vless
-  server: 104.20.17.210
+  server: 104.21.221.158
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -15,26 +15,26 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /fp=unsafe
     headers:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 02 - TanXi
   type: vless
-  server: 172.67.141.182
+  server: 172.64.152.241
   port: 443
-  uuid: ce440dcf-e570-4a50-af37-bf588ee8a988
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /vl/KSPdmco70dfoXFS292o2Nv6yPt?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /fp
     headers:
-      Host: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
+      Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 03 - TanXi
   type: vless
-  server: 104.16.10.2
+  server: 188.114.97.6
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -48,7 +48,21 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 04 - TanXi
   type: vless
-  server: 172.64.146.66
+  server: 104.17.50.53
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 05 - TanXi
+  type: vless
+  server: 172.64.158.170
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -60,23 +74,37 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 05 - TanXi
+- name: 🌐 其他地区 (Other) 06 - TanXi
   type: vless
-  server: 172.64.144.135
+  server: 104.21.0.87
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /?ed
+    path: /tyxyws
     headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: 🌐 其他地区 (Other) 06 - TanXi
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 07 - TanXi
   type: vless
-  server: 104.18.35.15
+  server: 104.21.6.186
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 08 - TanXi
+  type: vless
+  server: 104.21.221.158
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -88,37 +116,9 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 07 - TanXi
-  type: vless
-  server: 104.27.124.133
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🌐 其他地区 (Other) 08 - TanXi
-  type: vless
-  server: 104.21.29.202
-  port: 443
-  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: px2.5ibtc.cn
-  network: ws
-  ws-opts:
-    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
-    headers:
-      Host: px2.5ibtc.cn
 - name: 🌐 其他地区 (Other) 09 - TanXi
   type: vless
-  server: 104.18.37.247
+  server: 172.64.146.66
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -132,19 +132,33 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 10 - TanXi
   type: vless
-  server: 172.64.147.154
+  server: 172.67.217.240
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 11 - TanXi
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: 🌐 其他地区 (Other) 11 - TanXi
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 12 - TanXi
   type: vless
   server: 172.64.153.153
   port: 443
@@ -158,217 +172,7 @@ proxies:
     path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 12 - TanXi
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex3r.qzz.io
-  network: ws
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
 - name: 🌐 其他地区 (Other) 13 - TanXi
-  type: vless
-  server: 104.21.221.158
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 14 - TanXi
-  type: vless
-  server: 172.66.154.57
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 15 - TanXi
-  type: vless
-  server: 104.16.10.48
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 16 - TanXi
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 17 - TanXi
-  type: vless
-  server: 172.64.146.66
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex3r.qzz.io
-  network: ws
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
-- name: 🌐 其他地区 (Other) 18 - TanXi
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 19 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 20 - TanXi
-  type: vless
-  server: 172.64.190.13
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 21 - TanXi
-  type: vless
-  server: 172.67.149.199
-  port: 443
-  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: px2.5ibtc.cn
-  network: ws
-  ws-opts:
-    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
-    headers:
-      Host: px2.5ibtc.cn
-- name: 🌐 其他地区 (Other) 22 - TanXi
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 23 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 24 - TanXi
-  type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 25 - TanXi
-  type: vless
-  server: 172.66.154.57
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 26 - TanXi
-  type: vless
-  server: 8.47.69.60
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 27 - TanXi
   type: vless
   server: 172.64.153.153
   port: 443
@@ -382,216 +186,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 28 - TanXi
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 29 - TanXi
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 30 - TanXi
-  type: vless
-  server: 104.18.45.38
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 31 - TanXi
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /?
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 32 - TanXi
-  type: vless
-  server: 104.18.35.86
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 33 - TanXi
-  type: vless
-  server: 104.18.47.73
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 34 - TanXi
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/1.226.227.169:50001
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 35 - TanXi
-  type: vless
-  server: 8.47.69.60
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 36 - TanXi
-  type: vless
-  server: 104.27.110.37
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🌐 其他地区 (Other) 37 - TanXi
-  type: vless
-  server: 104.18.40.100
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 38 - TanXi
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 39 - TanXi
-  type: vless
-  server: 172.64.149.65
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: 🌐 其他地区 (Other) 40 - TanXi
-  type: vless
-  server: 104.21.221.158
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 41 - TanXi
-  type: vless
-  server: 172.67.145.14
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🌐 其他地区 (Other) 42 - TanXi
-  type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 43 - TanXi
+- name: 🌐 其他地区 (Other) 14 - TanXi
   type: vless
   server: 104.18.40.100
   port: 443
@@ -605,22 +200,9 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 44 - TanXi
+- name: 🌐 其他地区 (Other) 15 - TanXi
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 45 - TanXi
-  type: vless
-  server: 104.18.45.38
+  server: 104.20.17.210
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -629,24 +211,10 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp
+    path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 46 - TanXi
-  type: vless
-  server: 172.64.158.142
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: 🌐 其他地区 (Other) 47 - TanXi
+- name: 🌐 其他地区 (Other) 16 - TanXi
   type: vless
   server: 104.18.35.15
   port: 443
@@ -660,9 +228,23 @@ proxies:
     path: /fp=chrome?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 48 - TanXi
+- name: 🌐 其他地区 (Other) 17 - TanXi
   type: vless
-  server: 104.21.221.158
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 18 - TanXi
+  type: vless
+  server: 172.64.152.241
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -671,10 +253,123 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=unsafe
+    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 49 - TanXi
+- name: 🌐 其他地区 (Other) 19 - TanXi
+  type: vless
+  server: 104.21.6.186
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 20 - TanXi
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 21 - TanXi
+  type: vmess
+  server: 104.21.50.177
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: or3.sfacg.uk
+  network: ws
+  ws-opts:
+    path: /or3
+    headers:
+      Host: or3.sfacg.uk
+- name: 🌐 其他地区 (Other) 22 - TanXi
+  type: vless
+  server: 172.66.154.57
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 23 - TanXi
+  type: vless
+  server: 104.18.37.247
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 24 - TanXi
+  type: vless
+  server: 8.47.69.60
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 25 - TanXi
+  type: vless
+  server: n04.jinggai.online
+  port: 8443
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: n04.jinggai.online
+  network: ws
+  ws-opts:
+    path: /nvl-n04-ws/e0577fe8fd7c8823
+    headers:
+      Host: n04.jinggai.online
+- name: 🌐 其他地区 (Other) 26 - TanXi
+  type: vless
+  server: 104.18.35.86
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 27 - TanXi
   type: vless
   server: 104.18.35.15
   port: 443
@@ -688,64 +383,9 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 50 - TanXi
+- name: 🌐 其他地区 (Other) 28 - TanXi
   type: vless
-  server: 104.21.73.135
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🌐 其他地区 (Other) 51 - TanXi
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/103.101.153.32:443
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 52 - TanXi
-  type: vless
-  server: 8.6.112.4
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 53 - TanXi
-  type: vless
-  server: 104.18.35.86
-  port: 443
-  uuid: 1c7f675f-5923-463f-83fb-af4c898cecea
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZWhuWFFGNWRISXBjSmRGWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: 0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv
-- name: 🌐 其他地区 (Other) 54 - TanXi
-  type: vless
-  server: 172.67.76.40
+  server: cf.090227.xyz
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -757,21 +397,51 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 55 - TanXi
+- name: 🌐 其他地区 (Other) 29 - TanXi
   type: vless
-  server: 104.21.14.232
+  server: 162.159.254.3
   port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nuclear.us.kg
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /free/1.226.227.169:50001
+    path: /tyxyws
     headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 56 - TanXi
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 30 - TanXi
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 31 - TanXi
+  type: vmess
+  server: 188.114.96.3
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 32 - TanXi
   type: vless
   server: 172.64.152.241
   port: 443
@@ -785,9 +455,385 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 33 - TanXi
+  type: vless
+  server: 104.18.35.15
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 34 - TanXi
+  type: vless
+  server: 104.21.29.202
+  port: 443
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: px2.5ibtc.cn
+  network: ws
+  ws-opts:
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+    headers:
+      Host: px2.5ibtc.cn
+- name: 🌐 其他地区 (Other) 35 - TanXi
+  type: vless
+  server: 104.24.31.89
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 36 - TanXi
+  type: vless
+  server: n04.jinggai.online
+  port: 8443
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: n04.jinggai.online
+  network: ws
+  ws-opts:
+    path: /nvl-n04-ws/e0577fe8fd7c8823
+    headers:
+      Host: n04.jinggai.online
+- name: 🌐 其他地区 (Other) 37 - TanXi
+  type: vless
+  server: 104.16.10.234
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 38 - TanXi
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 39 - TanXi
+  type: vless
+  server: 104.18.41.190
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 40 - TanXi
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 41 - TanXi
+  type: vless
+  server: 104.18.47.73
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 42 - TanXi
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 43 - TanXi
+  type: vless
+  server: 104.19.164.155
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 44 - TanXi
+  type: vless
+  server: 104.16.10.2
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 45 - TanXi
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 46 - TanXi
+  type: vless
+  server: 172.64.190.13
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 47 - TanXi
+  type: vless
+  server: 8.47.69.60
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 48 - TanXi
+  type: vless
+  server: 104.19.48.107
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 49 - TanXi
+  type: vless
+  server: 172.66.154.57
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 50 - TanXi
+  type: vless
+  server: 104.17.50.227
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 51 - TanXi
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 52 - TanXi
+  type: vless
+  server: 104.21.221.158
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 53 - TanXi
+  type: vless
+  server: 172.67.76.40
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 54 - TanXi
+  type: vless
+  server: 104.16.10.22
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 55 - TanXi
+  type: vless
+  server: 104.16.10.56
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 56 - TanXi
+  type: vless
+  server: 8.6.112.4
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🌐 其他地区 (Other) 57 - TanXi
   type: vless
-  server: cf.090227.xyz
+  server: chatgpt.com
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 58 - TanXi
+  type: vless
+  server: 172.64.190.13
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 59 - TanXi
+  type: vless
+  server: 172.67.141.182
+  port: 443
+  uuid: ce440dcf-e570-4a50-af37-bf588ee8a988
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
+  network: ws
+  ws-opts:
+    path: /vl/KSPdmco70dfoXFS292o2Nv6yPt?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
+- name: 🌐 其他地区 (Other) 60 - TanXi
+  type: vless
+  server: 172.64.158.170
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -861,6 +907,9 @@ proxy-groups:
   - 🌐 其他地区 (Other) 55 - TanXi
   - 🌐 其他地区 (Other) 56 - TanXi
   - 🌐 其他地区 (Other) 57 - TanXi
+  - 🌐 其他地区 (Other) 58 - TanXi
+  - 🌐 其他地区 (Other) 59 - TanXi
+  - 🌐 其他地区 (Other) 60 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -923,5 +972,8 @@ proxy-groups:
   - 🌐 其他地区 (Other) 55 - TanXi
   - 🌐 其他地区 (Other) 56 - TanXi
   - 🌐 其他地区 (Other) 57 - TanXi
+  - 🌐 其他地区 (Other) 58 - TanXi
+  - 🌐 其他地区 (Other) 59 - TanXi
+  - 🌐 其他地区 (Other) 60 - TanXi
 rules:
 - MATCH,PROXIES
