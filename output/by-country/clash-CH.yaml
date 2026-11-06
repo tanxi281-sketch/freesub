@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 02 - TanXi
   type: vless
   server: 208.69.78.217
@@ -27,21 +27,19 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 03 - TanXi
   type: vless
-  server: 83.147.216.223
-  port: 4433
-  uuid: 660174a2-d32d-4521-840d-d1853bfc80b8
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇨🇭 CH 04 - TanXi
   type: vless
   server: 208.69.78.217
@@ -53,7 +51,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 05 - TanXi
   type: vless
   server: 208.69.78.217
@@ -65,7 +63,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇨🇭 CH 06 - TanXi
   type: vless
   server: 208.69.78.217
@@ -77,19 +75,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 07 - TanXi
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -101,7 +87,6 @@ proxy-groups:
   - 🇨🇭 CH 04 - TanXi
   - 🇨🇭 CH 05 - TanXi
   - 🇨🇭 CH 06 - TanXi
-  - 🇨🇭 CH 07 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -113,6 +98,5 @@ proxy-groups:
   - 🇨🇭 CH 04 - TanXi
   - 🇨🇭 CH 05 - TanXi
   - 🇨🇭 CH 06 - TanXi
-  - 🇨🇭 CH 07 - TanXi
 rules:
 - MATCH,PROXIES
