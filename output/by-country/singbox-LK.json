@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - TanXi"
+        "🇱🇰 LK 01 - TanXi",
+        "🇱🇰 LK 02 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - TanXi"
+        "🇱🇰 LK 01 - TanXi",
+        "🇱🇰 LK 02 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
