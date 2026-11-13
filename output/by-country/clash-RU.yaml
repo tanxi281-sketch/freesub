@@ -6,10 +6,10 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - TanXi
   type: ss
-  server: 38.60.223.125
-  port: 13108
-  cipher: aes-128-gcm
-  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
+  server: 185.22.153.117
+  port: 18443
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - TanXi
   type: ss
@@ -20,18 +20,18 @@ proxies:
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 03 - TanXi
   type: vless
-  server: 104.21.29.38
+  server: 185.178.208.167
   port: 443
-  uuid: ac532d5e-2b9c-45a2-85df-37b3b74cffde
+  uuid: 4662bf2b-af58-0001-ae5f-ef3d7d3a624f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
+  servername: mbr.rkn-pediki.site
   network: ws
   ws-opts:
-    path: /9dffa10cc2d3b317?ed=2560
+    path: /session
     headers:
-      Host: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
+      Host: mbr.rkn-pediki.site
 proxy-groups:
 - name: PROXIES
   type: select

@@ -5,20 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 02 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 03 - TanXi
+  type: ss
+  server: 15.235.164.133
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 04 - TanXi
   type: vless
   server: 511.150333.xyz
-  port: 21004
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 02 - TanXi
-  type: vless
-  server: 103.106.229.37
   port: 21001
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
@@ -28,20 +43,10 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 03 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 04 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 05 - TanXi
   type: vless
   server: 511.150333.xyz
-  port: 21003
+  port: 21002
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
@@ -50,16 +55,6 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 05 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 06 - TanXi
   type: vmess
   server: 149.88.23.207
@@ -71,13 +66,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 07 - TanXi
-  type: ss
-  server: 15.235.164.133
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 08 - TanXi
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -87,20 +75,10 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 09 - TanXi
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 10 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 08 - TanXi
   type: vless
   server: 511.150333.xyz
-  port: 21003
+  port: 21004
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
@@ -108,7 +86,31 @@ proxies:
   reality-opts:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 09 - TanXi
+  type: vless
+  server: 161.118.200.170
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: fs.qicai99.com
+- name: 🇸🇬 新加坡 (Singapore) 10 - TanXi
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 11 - TanXi
   type: vmess
   server: ww11.levikogjgfdd.ir
@@ -120,25 +122,24 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 12 - TanXi
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 139.162.27.96
+  port: 443
+  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: aka.ms
 - name: 🇸🇬 新加坡 (Singapore) 13 - TanXi
   type: vless
-  server: 510.150333.xyz
+  server: 511.150333.xyz
   port: 21001
-  uuid: 67952583-8572-42e1-943d-0602794f885b
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 14 - TanXi
@@ -155,7 +156,7 @@ proxies:
   client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 15 - TanXi
   type: vmess
-  server: 149.88.23.207
+  server: 149.88.23.202
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -164,40 +165,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 16 - TanXi
-  type: vless
-  server: 511.150333.xyz
-  port: 21003
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 17 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 18 - TanXi
-  type: vless
-  server: 103.106.229.37
-  port: 21004
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 19 - TanXi
   type: vless
   server: 511.150333.xyz
   port: 21002
@@ -209,6 +176,40 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 17 - TanXi
+  type: vless
+  server: 511.150333.xyz
+  port: 21004
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 18 - TanXi
+  type: vless
+  server: 510.150333.xyz
+  port: 21004
+  uuid: 67952583-8572-42e1-943d-0602794f885b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 19 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 20 - TanXi
   type: vless
   server: 510.150333.xyz
@@ -220,27 +221,31 @@ proxies:
   reality-opts:
     public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 21 - TanXi
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 45.132.75.213
+  port: 2053
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 22 - TanXi
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 45.132.75.213
+  port: 2053
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 23 - TanXi
   type: vless
   server: 510.150333.xyz
@@ -252,47 +257,36 @@ proxies:
   reality-opts:
     public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇸🇬 新加坡 (Singapore) 24 - TanXi
+  type: ss
+  server: 149.88.107.74
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 25 - TanXi
   type: vless
-  server: 511.150333.xyz
-  port: 21004
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  server: 510.150333.xyz
+  port: 21001
+  uuid: 67952583-8572-42e1-943d-0602794f885b
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 25 - TanXi
-  type: vless
-  server: 68.64.182.205
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
 - name: 🇸🇬 新加坡 (Singapore) 26 - TanXi
-  type: vless
-  server: 139.162.27.96
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: free-server.techsonic.dev
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
 - name: 🇸🇬 新加坡 (Singapore) 27 - TanXi
   type: vless
   server: 511.150333.xyz
@@ -317,7 +311,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 29 - TanXi
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -337,40 +331,6 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 31 - TanXi
   type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 32 - TanXi
-  type: vless
-  server: 511.150333.xyz
-  port: 21002
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 33 - TanXi
-  type: vless
-  server: 511.150333.xyz
-  port: 21003
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 34 - TanXi
-  type: vmess
   server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
@@ -379,6 +339,39 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 32 - TanXi
+  type: ss
+  server: 149.88.107.47
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 33 - TanXi
+  type: vless
+  server: 139.162.27.96
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: 🇸🇬 新加坡 (Singapore) 34 - TanXi
+  type: vless
+  server: 510.150333.xyz
+  port: 21003
+  uuid: 67952583-8572-42e1-943d-0602794f885b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+  servername: www.cloudflare.com
+  client-fingerprint: random
 - name: 🇸🇬 新加坡 (Singapore) 35 - TanXi
   type: vmess
   server: 149.88.23.207
@@ -390,9 +383,16 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 36 - TanXi
+  type: ss
+  server: 149.88.106.74
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 37 - TanXi
   type: vless
   server: 511.150333.xyz
-  port: 21001
+  port: 21002
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
@@ -401,15 +401,6 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 37 - TanXi
-  type: vless
-  server: 139.162.27.96
-  port: 443
-  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: aka.ms
 - name: 🇸🇬 新加坡 (Singapore) 38 - TanXi
   type: vmess
   server: 149.88.23.207
@@ -422,17 +413,31 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 39 - TanXi
   type: vless
-  server: 511.150333.xyz
-  port: 21002
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  server: 143.42.66.91
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fs.qicai99.com
+- name: 🇸🇬 新加坡 (Singapore) 40 - TanXi
+  type: vless
+  server: 45.132.75.213
+  port: 2053
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 40 - TanXi
+  client-fingerprint: safari
+- name: 🇸🇬 新加坡 (Singapore) 41 - TanXi
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -442,17 +447,22 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 41 - TanXi
-  type: ss
-  server: 149.88.106.74
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 🇸🇬 新加坡 (Singapore) 42 - TanXi
   type: vless
+  server: 510.150333.xyz
+  port: 21004
+  uuid: 67952583-8572-42e1-943d-0602794f885b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇸🇬 新加坡 (Singapore) 43 - TanXi
+  type: vless
   server: 511.150333.xyz
-  port: 21001
+  port: 21004
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
@@ -461,7 +471,7 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 43 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 44 - TanXi
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -471,9 +481,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 44 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 45 - TanXi
   type: vmess
-  server: 149.88.23.202
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -481,23 +491,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 45 - TanXi
-  type: vless
-  server: 104.18.79.242
-  port: 443
-  uuid: bb2a729c-6185-4170-8769-6f5b9f64d5b8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cloud-sync-3d1512-gw.maziarkish.workers.dev
-  network: ws
-  ws-opts:
-    path: /11290579a72cdb4e?ed=2560
-    headers:
-      Host: cloud-sync-3d1512-gw.maziarkish.workers.dev
 - name: 🇸🇬 新加坡 (Singapore) 46 - TanXi
   type: vmess
-  server: 149.88.23.207
+  server: ww11.levikogjgfdd.ir
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -507,7 +503,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 47 - TanXi
   type: vless
-  server: 511.150333.xyz
+  server: 103.106.229.37
   port: 21004
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
@@ -516,30 +512,53 @@ proxies:
   reality-opts:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇸🇬 新加坡 (Singapore) 48 - TanXi
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 49 - TanXi
   type: vless
   server: 511.150333.xyz
-  port: 21004
+  port: 21003
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 49 - TanXi
+  type: vless
+  server: 510.150333.xyz
+  port: 21003
+  uuid: 67952583-8572-42e1-943d-0602794f885b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 50 - TanXi
+  type: vless
+  server: 510.150333.xyz
+  port: 21003
+  uuid: 67952583-8572-42e1-943d-0602794f885b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 51 - TanXi
+  type: vless
+  server: 139.162.27.96
+  port: 443
+  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aka.ms
+- name: 🇸🇬 新加坡 (Singapore) 52 - TanXi
   type: vless
   server: 45.132.75.213
   port: 2053
@@ -551,7 +570,7 @@ proxies:
     public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 51 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 53 - TanXi
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -561,7 +580,19 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 52 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 54 - TanXi
+  type: vless
+  server: 45.132.75.213
+  port: 2053
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇸🇬 新加坡 (Singapore) 55 - TanXi
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -571,10 +602,10 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 53 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 56 - TanXi
   type: vless
   server: 511.150333.xyz
-  port: 21001
+  port: 21003
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
@@ -583,33 +614,17 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 54 - TanXi
-  type: vless
-  server: 510.150333.xyz
-  port: 21004
-  uuid: 67952583-8572-42e1-943d-0602794f885b
+- name: 🇸🇬 新加坡 (Singapore) 57 - TanXi
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 55 - TanXi
-  type: vless
-  server: 23.156.153.40
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-- name: 🇸🇬 新加坡 (Singapore) 56 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 58 - TanXi
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -619,16 +634,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 57 - TanXi
-  type: ss
-  server: 149.88.107.47
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 58 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 59 - TanXi
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -636,16 +644,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 59 - TanXi
-  type: ss
-  server: 149.88.107.74
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 🇸🇬 新加坡 (Singapore) 60 - TanXi
   type: vmess
-  server: ww11.levikogjgfdd.ir
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -655,8 +656,8 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 61 - TanXi
   type: vless
-  server: 511.150333.xyz
-  port: 21001
+  server: 103.106.229.37
+  port: 21004
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
@@ -676,6 +677,27 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 63 - TanXi
+  type: vless
+  server: 511.150333.xyz
+  port: 21003
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 64 - TanXi
+  type: vless
+  server: 207.148.124.12
+  port: 8443
+  uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: www.bing.com
+- name: 🇸🇬 新加坡 (Singapore) 65 - TanXi
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -685,42 +707,10 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 64 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 65 - TanXi
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 66 - TanXi
   type: vless
-  server: 510.150333.xyz
-  port: 21003
-  uuid: 67952583-8572-42e1-943d-0602794f885b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 67 - TanXi
-  type: vless
   server: 511.150333.xyz
-  port: 21002
+  port: 21004
   uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
@@ -729,6 +719,20 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 67 - TanXi
+  type: vless
+  server: 23.156.153.40
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fs.qicai99.com
 - name: 🇸🇬 新加坡 (Singapore) 68 - TanXi
   type: vless
   server: 510.150333.xyz
@@ -740,40 +744,48 @@ proxies:
   reality-opts:
     public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇸🇬 新加坡 (Singapore) 69 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 139.162.27.96
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: free-server.techsonic.dev
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
 - name: 🇸🇬 新加坡 (Singapore) 70 - TanXi
-  type: vmess
-  server: ww11.levikogjgfdd.ir
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 510.150333.xyz
+  port: 21002
+  uuid: 67952583-8572-42e1-943d-0602794f885b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 71 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 511.150333.xyz
+  port: 21001
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 72 - TanXi
   type: vmess
-  server: 149.88.23.202
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -793,7 +805,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 74 - TanXi
   type: vmess
-  server: 149.88.23.207
+  server: 149.88.23.202
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -802,129 +814,18 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 75 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 103.106.229.37
+  port: 21001
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇸🇬 新加坡 (Singapore) 76 - TanXi
-  type: vless
-  server: 511.150333.xyz
-  port: 21004
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 77 - TanXi
-  type: vless
-  server: 511.150333.xyz
-  port: 21003
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 78 - TanXi
-  type: vless
-  server: 45.132.75.213
-  port: 2053
-  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 79 - TanXi
-  type: vless
-  server: 510.150333.xyz
-  port: 21004
-  uuid: 67952583-8572-42e1-943d-0602794f885b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 80 - TanXi
-  type: vless
-  server: 45.132.75.213
-  port: 2053
-  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇸🇬 新加坡 (Singapore) 81 - TanXi
-  type: vless
-  server: 45.132.75.213
-  port: 2053
-  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇸🇬 新加坡 (Singapore) 82 - TanXi
-  type: vless
-  server: 207.148.124.12
-  port: 8443
-  uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: www.bing.com
-- name: 🇸🇬 新加坡 (Singapore) 83 - TanXi
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 84 - TanXi
-  type: vmess
-  server: 149.88.23.202
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 85 - TanXi
-  type: vless
-  server: 510.150333.xyz
-  port: 21003
-  uuid: 67952583-8572-42e1-943d-0602794f885b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 86 - TanXi
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -934,38 +835,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 87 - TanXi
-  type: ss
-  server: 15.235.182.183
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 88 - TanXi
-  type: vless
-  server: 510.150333.xyz
-  port: 21002
-  uuid: 67952583-8572-42e1-943d-0602794f885b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 89 - TanXi
-  type: vless
-  server: 511.150333.xyz
-  port: 21004
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 90 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 77 - TanXi
   type: vmess
   server: 149.88.23.207
   port: 18000
@@ -975,7 +845,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 91 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 78 - TanXi
   type: vless
   server: 511.150333.xyz
   port: 21001
@@ -987,74 +857,143 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 79 - TanXi
+  type: vless
+  server: 511.150333.xyz
+  port: 21003
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 80 - TanXi
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 81 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 82 - TanXi
+  type: vless
+  server: 511.150333.xyz
+  port: 21004
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 83 - TanXi
+  type: vless
+  server: 103.106.229.37
+  port: 21004
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 84 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 85 - TanXi
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 86 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 87 - TanXi
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 88 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 89 - TanXi
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 90 - TanXi
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 91 - TanXi
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 92 - TanXi
-  type: vless
-  server: 139.162.27.96
-  port: 2096
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: free-server.techsonic.dev
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: 🇸🇬 新加坡 (Singapore) 93 - TanXi
-  type: vless
-  server: 103.106.229.37
-  port: 21004
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 94 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 95 - TanXi
-  type: vless
-  server: 103.106.229.37
-  port: 21004
-  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 96 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 97 - TanXi
-  type: vless
-  server: 139.162.27.96
-  port: 443
-  uuid: f1178fbe-1420-4eef-b087-4f33b32b4a19
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: aka.ms
-- name: 🇸🇬 新加坡 (Singapore) 98 - TanXi
   type: vless
   server: 511.150333.xyz
   port: 21002
@@ -1066,50 +1005,19 @@ proxies:
     public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇸🇬 新加坡 (Singapore) 99 - TanXi
-  type: ss
-  server: 51.79.228.131
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇸🇬 新加坡 (Singapore) 100 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 93 - TanXi
   type: vless
-  server: 510.150333.xyz
-  port: 21003
-  uuid: 67952583-8572-42e1-943d-0602794f885b
+  server: 511.150333.xyz
+  port: 21002
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇸🇬 新加坡 (Singapore) 101 - TanXi
-  type: vless
-  server: 161.118.200.170
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: fs.qicai99.com
-- name: 🇸🇬 新加坡 (Singapore) 102 - TanXi
-  type: vmess
-  server: 149.88.23.207
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 103 - TanXi
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 94 - TanXi
   type: vmess
   server: ww11.levikogjgfdd.ir
   port: 18000
@@ -1119,18 +1027,116 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 (Singapore) 104 - TanXi
+- name: 🇸🇬 新加坡 (Singapore) 95 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 96 - TanXi
   type: vless
-  server: 45.132.75.213
-  port: 2053
-  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+  server: 38.207.177.204
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fs.qicai99.com
+- name: 🇸🇬 新加坡 (Singapore) 97 - TanXi
+  type: vless
+  server: 43.156.62.218
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇸🇬 新加坡 (Singapore) 98 - TanXi
+  type: vmess
+  server: ww11.levikogjgfdd.ir
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 99 - TanXi
+  type: ss
+  server: 15.235.182.183
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 100 - TanXi
+  type: vless
+  server: 511.150333.xyz
+  port: 21003
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 101 - TanXi
+  type: vless
+  server: 143.42.66.91
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fs.qicai99.com
+- name: 🇸🇬 新加坡 (Singapore) 102 - TanXi
+  type: vless
+  server: 511.150333.xyz
+  port: 21001
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 103 - TanXi
+  type: ss
+  server: 51.79.228.131
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 新加坡 (Singapore) 104 - TanXi
+  type: vmess
+  server: 149.88.23.202
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 105 - TanXi
   type: vmess
   server: 149.88.23.207
@@ -1143,7 +1149,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 106 - TanXi
   type: vmess
-  server: 149.88.23.202
+  server: 149.88.23.207
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -1153,18 +1159,49 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 (Singapore) 107 - TanXi
   type: vless
-  server: 104.17.147.208
-  port: 443
-  uuid: 258ca28a-d982-4a40-b620-7c1c81108060
+  server: 511.150333.xyz
+  port: 21004
+  uuid: 41b1c169-5905-4d98-b6a6-56896c25737c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: b.rack.sxsc.dpdns.org
+  reality-opts:
+    public-key: HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇸🇬 新加坡 (Singapore) 108 - TanXi
+  type: vmess
+  server: 149.88.23.207
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 (Singapore) 109 - TanXi
+  type: vless
+  server: 207.148.124.12
+  port: 8443
+  uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: www.bing.com
+- name: 🇸🇬 新加坡 (Singapore) 110 - TanXi
+  type: vless
+  server: 68.64.182.205
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /fp=chrome
     headers:
-      Host: b.rack.sxsc.dpdns.org
+      Host: fs.qicai99.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1277,6 +1314,9 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 105 - TanXi
   - 🇸🇬 新加坡 (Singapore) 106 - TanXi
   - 🇸🇬 新加坡 (Singapore) 107 - TanXi
+  - 🇸🇬 新加坡 (Singapore) 108 - TanXi
+  - 🇸🇬 新加坡 (Singapore) 109 - TanXi
+  - 🇸🇬 新加坡 (Singapore) 110 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1389,5 +1429,8 @@ proxy-groups:
   - 🇸🇬 新加坡 (Singapore) 105 - TanXi
   - 🇸🇬 新加坡 (Singapore) 106 - TanXi
   - 🇸🇬 新加坡 (Singapore) 107 - TanXi
+  - 🇸🇬 新加坡 (Singapore) 108 - TanXi
+  - 🇸🇬 新加坡 (Singapore) 109 - TanXi
+  - 🇸🇬 新加坡 (Singapore) 110 - TanXi
 rules:
 - MATCH,PROXIES
