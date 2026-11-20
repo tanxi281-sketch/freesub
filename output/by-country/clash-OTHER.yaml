@@ -5,64 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - TanXi
-  type: vless
-  server: 104.21.219.160
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 02 - TanXi
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 03 - TanXi
-  type: vless
-  server: 104.16.10.135
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 04 - TanXi
-  type: vless
-  server: 104.19.164.155
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 05 - TanXi
   type: vmess
-  server: 188.114.96.3
+  server: 104.21.91.53
   port: 8443
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
@@ -76,9 +20,9 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 06 - TanXi
+- name: 🌐 其他地区 (Other) 02 - TanXi
   type: vless
-  server: 104.17.50.227
+  server: 104.16.111.202
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -87,24 +31,110 @@ proxies:
   servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 03 - TanXi
+  type: vless
+  server: 104.16.10.234
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 04 - TanXi
+  type: vless
+  server: 104.16.111.102
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 05 - TanXi
+  type: vless
+  server: 104.19.164.155
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 06 - TanXi
+  type: vless
+  server: 104.16.10.135
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: tyxyws
     headers:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 07 - TanXi
   type: vless
-  server: 104.17.145.145
-  port: 2083
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  server: 104.16.0.1
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vipfree.dr-ping.ir
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /
+    path: tyxyws
     headers:
-      Host: vipfree.dr-ping.ir
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 08 - TanXi
+  type: vmess
+  server: chatgpt.com
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🌐 其他地区 (Other) 09 - TanXi
+  type: vless
+  server: 104.17.210.74
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 10 - TanXi
   type: vless
   server: 104.17.169.13
   port: 443
@@ -118,23 +148,9 @@ proxies:
     path: tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 09 - TanXi
+- name: 🌐 其他地区 (Other) 11 - TanXi
   type: vless
-  server: 104.24.31.89
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 10 - TanXi
-  type: vless
-  server: 104.16.10.48
+  server: 104.16.10.56
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -146,23 +162,9 @@ proxies:
     path: tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 11 - TanXi
-  type: vless
-  server: 104.16.0.1
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 12 - TanXi
   type: vless
-  server: 104.17.50.227
+  server: 104.17.50.53
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -176,105 +178,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 13 - TanXi
   type: vless
-  server: 104.16.10.104
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 14 - TanXi
-  type: vless
-  server: 104.18.63.135
-  port: 2083
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vipfree.dr-ping.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-- name: 🌐 其他地区 (Other) 15 - TanXi
-  type: vless
-  server: 162.159.237.118
-  port: 2083
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vipfree.dr-ping.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-- name: 🌐 其他地区 (Other) 16 - TanXi
-  type: vless
-  server: 104.17.145.145
-  port: 2083
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vipfree.dr-ping.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-- name: 🌐 其他地区 (Other) 17 - TanXi
-  type: vless
-  server: 104.18.63.135
-  port: 2083
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vipfree.dr-ping.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-- name: 🌐 其他地区 (Other) 18 - TanXi
-  type: vless
-  server: 172.64.79.163
-  port: 2083
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vipfree.dr-ping.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-- name: 🌐 其他地区 (Other) 19 - TanXi
-  type: vless
-  server: 104.17.50.53
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 20 - TanXi
-  type: vless
-  server: 104.18.10.153
+  server: 104.18.11.153
   port: 443
   uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
   udp: true
@@ -283,24 +187,10 @@ proxies:
   servername: portland-wins-robbie-skirt.trycloudflare.com
   network: ws
   ws-opts:
-    path: /e0843c8ad581
+    path: e0843c8ad581
     headers:
       Host: portland-wins-robbie-skirt.trycloudflare.com
-- name: 🌐 其他地区 (Other) 21 - TanXi
-  type: vless
-  server: 104.24.0.1
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 22 - TanXi
+- name: 🌐 其他地区 (Other) 14 - TanXi
   type: vless
   server: 188.114.97.6
   port: 443
@@ -314,9 +204,9 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 23 - TanXi
+- name: 🌐 其他地区 (Other) 15 - TanXi
   type: vless
-  server: 104.16.10.72
+  server: 172.67.217.240
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -328,6 +218,132 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 16 - TanXi
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 17 - TanXi
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 18 - TanXi
+  type: vless
+  server: 104.18.42.98
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 19 - TanXi
+  type: vless
+  server: 104.18.10.153
+  port: 443
+  uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: portland-wins-robbie-skirt.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /e0843c8ad581
+    headers:
+      Host: portland-wins-robbie-skirt.trycloudflare.com
+- name: 🌐 其他地区 (Other) 20 - TanXi
+  type: vless
+  server: 104.19.48.107
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 21 - TanXi
+  type: vless
+  server: 104.18.10.153
+  port: 443
+  uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: portland-wins-robbie-skirt.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: e0843c8ad581
+    headers:
+      Host: portland-wins-robbie-skirt.trycloudflare.com
+- name: 🌐 其他地区 (Other) 22 - TanXi
+  type: vless
+  server: 104.18.153.10
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 23 - TanXi
+  type: vless
+  server: 104.16.10.22
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 24 - TanXi
+  type: vless
+  server: 172.67.174.37
+  port: 443
+  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ave-qualifications-choices-populations.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /a8b8606819ef
+    headers:
+      Host: ave-qualifications-choices-populations.trycloudflare.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -356,6 +372,7 @@ proxy-groups:
   - 🌐 其他地区 (Other) 21 - TanXi
   - 🌐 其他地区 (Other) 22 - TanXi
   - 🌐 其他地区 (Other) 23 - TanXi
+  - 🌐 其他地区 (Other) 24 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -384,5 +401,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 21 - TanXi
   - 🌐 其他地区 (Other) 22 - TanXi
   - 🌐 其他地区 (Other) 23 - TanXi
+  - 🌐 其他地区 (Other) 24 - TanXi
 rules:
 - MATCH,PROXIES
