@@ -6,25 +6,31 @@ log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - TanXi
   type: vless
-  server: 92.223.84.254
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 SE 02 - TanXi
+  type: vless
+  server: 77.232.143.142
   port: 443
-  uuid: 740b2630-b42d-425c-bacd-37e7e30d78f1
+  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: subgift.gcorecdn.com
+  servername: volumestyle.komediyatorg.net
   network: ws
   ws-opts:
-    path: /t.me-SubGift
+    path: /media/ws/
     headers:
-      Host: subgift.gcorecdn.com
-- name: 🇸🇪 SE 02 - TanXi
-  type: ss
-  server: 138.199.55.243
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
+      Host: 77.232.143.142
 - name: 🇸🇪 SE 03 - TanXi
   type: vmess
   server: 62.93.166.184
@@ -36,6 +42,13 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
+- name: 🇸🇪 SE 04 - TanXi
+  type: ss
+  server: 138.199.55.243
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -44,6 +57,7 @@ proxy-groups:
   - 🇸🇪 SE 01 - TanXi
   - 🇸🇪 SE 02 - TanXi
   - 🇸🇪 SE 03 - TanXi
+  - 🇸🇪 SE 04 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -52,5 +66,6 @@ proxy-groups:
   - 🇸🇪 SE 01 - TanXi
   - 🇸🇪 SE 02 - TanXi
   - 🇸🇪 SE 03 - TanXi
+  - 🇸🇪 SE 04 - TanXi
 rules:
 - MATCH,PROXIES
