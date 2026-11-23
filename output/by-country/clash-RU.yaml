@@ -15,32 +15,39 @@ proxies:
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 02 - TanXi
   type: vless
-  server: 136.148.83.69
+  server: cabinet.filnex.baby
   port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
+  servername: claywick.elvano.website
+  network: ws
+  ws-opts:
+    path: /api/de7/stream
+    headers:
+      Host: cabinet.filnex.baby
 - name: 🇷🇺 俄罗斯 (Russia) 03 - TanXi
   type: ss
-  server: 90.156.203.62
-  port: 5112
+  server: 130.49.189.158
+  port: 43558
   cipher: chacha20-ietf-poly1305
-  password: VVlAff77CnAU43Aoc5j15Y
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 04 - TanXi
-  type: ss
-  server: 48.103.218.77
-  port: 18443
-  cipher: aes-256-gcm
-  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 05 - TanXi
   type: vless
   server: 136.148.83.69
   port: 443
   uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+- name: 🇷🇺 俄罗斯 (Russia) 05 - TanXi
+  type: vless
+  server: 136.148.83.69
+  port: 443
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
   udp: true
   tls: true
   skip-cert-verify: true
@@ -55,27 +62,6 @@ proxies:
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 07 - TanXi
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 08 - TanXi
-  type: vless
-  server: 147.45.221.225
-  port: 443
-  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nl.lucheeebezlimitnoekino.stream
-  network: ws
-  ws-opts:
-    path: /media/ws/
-    headers:
-      Host: 147.45.221.225
-- name: 🇷🇺 俄罗斯 (Russia) 09 - TanXi
   type: vless
   server: 147.45.175.81
   port: 443
@@ -86,10 +72,10 @@ proxies:
   servername: xsru2.freeddns.org
   network: ws
   ws-opts:
-    path: /wsru
+    path: wsru
     headers:
       Host: xsru2.freeddns.org
-- name: 🇷🇺 俄罗斯 (Russia) 10 - TanXi
+- name: 🇷🇺 俄罗斯 (Russia) 08 - TanXi
   type: vless
   server: 136.148.83.69
   port: 443
@@ -98,13 +84,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 11 - TanXi
-  type: ss
-  server: 46.17.42.129
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -118,9 +97,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 07 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 08 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 09 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 10 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 11 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -134,8 +110,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 07 - TanXi
   - 🇷🇺 俄罗斯 (Russia) 08 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 09 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 10 - TanXi
-  - 🇷🇺 俄罗斯 (Russia) 11 - TanXi
 rules:
 - MATCH,PROXIES
