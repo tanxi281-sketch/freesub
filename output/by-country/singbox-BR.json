@@ -7,7 +7,9 @@
       "outbounds": [
         "auto",
         "🇧🇷 BR 01 - TanXi",
-        "🇧🇷 BR 02 - TanXi"
+        "🇧🇷 BR 02 - TanXi",
+        "🇧🇷 BR 03 - TanXi",
+        "🇧🇷 BR 04 - TanXi"
       ]
     },
     {
@@ -15,7 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇷 BR 01 - TanXi",
-        "🇧🇷 BR 02 - TanXi"
+        "🇧🇷 BR 02 - TanXi",
+        "🇧🇷 BR 03 - TanXi",
+        "🇧🇷 BR 04 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
