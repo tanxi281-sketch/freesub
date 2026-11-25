@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 - TanXi"
+        "🇱🇰 LK 01 - TanXi",
+        "🇱🇰 LK 02 - TanXi",
+        "🇱🇰 LK 03 - TanXi",
+        "🇱🇰 LK 04 - TanXi",
+        "🇱🇰 LK 05 - TanXi"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - TanXi"
+        "🇱🇰 LK 01 - TanXi",
+        "🇱🇰 LK 02 - TanXi",
+        "🇱🇰 LK 03 - TanXi",
+        "🇱🇰 LK 04 - TanXi",
+        "🇱🇰 LK 05 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },
