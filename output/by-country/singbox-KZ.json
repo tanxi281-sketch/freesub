@@ -7,7 +7,8 @@
       "outbounds": [
         "auto",
         "🇰🇿 KZ 01 - TanXi",
-        "🇰🇿 KZ 02 - TanXi"
+        "🇰🇿 KZ 02 - TanXi",
+        "🇰🇿 KZ 03 - TanXi"
       ]
     },
     {
@@ -15,7 +16,8 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇿 KZ 01 - TanXi",
-        "🇰🇿 KZ 02 - TanXi"
+        "🇰🇿 KZ 02 - TanXi",
+        "🇰🇿 KZ 03 - TanXi"
       ],
       "url": "https://www.google.com/generate_204"
     },

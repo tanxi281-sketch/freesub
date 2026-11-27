@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - TanXi
   type: ss
-  server: 202.50.253.63
+  server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 02 - TanXi
   type: ss
-  server: 202.50.253.90
+  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 03 - TanXi
   type: ss
-  server: 202.50.253.81
+  server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -34,56 +34,49 @@ proxies:
   udp: true
 - name: 🇮🇹 意大利 (Italy) 05 - TanXi
   type: ss
-  server: 202.50.253.99
+  server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 06 - TanXi
   type: ss
-  server: 202.50.253.36
+  server: 185.164.175.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 07 - TanXi
   type: ss
-  server: 202.50.253.54
+  server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 08 - TanXi
   type: ss
-  server: 202.50.253.18
+  server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 09 - TanXi
   type: ss
-  server: 202.50.253.18
+  server: 202.50.253.63
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 10 - TanXi
-  type: vless
-  server: freev2.cloudflare.182682.xyz
-  port: 443
-  uuid: 201d6c87-5de6-4bda-973c-024129b228fb
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: it-mil.862400.xyz
-  network: ws
-  ws-opts:
-    path: /announcement?ed=2048fp=random
-    headers:
-      Host: it-mil.862400.xyz
 - name: 🇮🇹 意大利 (Italy) 11 - TanXi
   type: ss
-  server: 202.50.253.90
+  server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -97,14 +90,14 @@ proxies:
   udp: true
 - name: 🇮🇹 意大利 (Italy) 13 - TanXi
   type: ss
-  server: 57.131.27.21
-  port: 8388
+  server: 202.50.253.90
+  port: 19999
   cipher: aes-256-gcm
-  password: itzvpn@321
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 14 - TanXi
   type: ss
-  server: 202.50.253.45
+  server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -118,7 +111,7 @@ proxies:
   udp: true
 - name: 🇮🇹 意大利 (Italy) 16 - TanXi
   type: ss
-  server: 202.50.253.27
+  server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -126,34 +119,6 @@ proxies:
 - name: 🇮🇹 意大利 (Italy) 17 - TanXi
   type: ss
   server: 185.164.175.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 18 - TanXi
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 19 - TanXi
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 20 - TanXi
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 21 - TanXi
-  type: ss
-  server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -180,10 +145,6 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 15 - TanXi
   - 🇮🇹 意大利 (Italy) 16 - TanXi
   - 🇮🇹 意大利 (Italy) 17 - TanXi
-  - 🇮🇹 意大利 (Italy) 18 - TanXi
-  - 🇮🇹 意大利 (Italy) 19 - TanXi
-  - 🇮🇹 意大利 (Italy) 20 - TanXi
-  - 🇮🇹 意大利 (Italy) 21 - TanXi
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -206,9 +167,5 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 15 - TanXi
   - 🇮🇹 意大利 (Italy) 16 - TanXi
   - 🇮🇹 意大利 (Italy) 17 - TanXi
-  - 🇮🇹 意大利 (Italy) 18 - TanXi
-  - 🇮🇹 意大利 (Italy) 19 - TanXi
-  - 🇮🇹 意大利 (Italy) 20 - TanXi
-  - 🇮🇹 意大利 (Italy) 21 - TanXi
 rules:
 - MATCH,PROXIES
